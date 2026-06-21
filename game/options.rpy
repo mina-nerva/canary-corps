@@ -21,7 +21,7 @@ define config.name = _("Canary Corps")
 define gui.show_name = False
 
 
-## The version of the game.
+## The version of the game
 
 define config.version = "beta"
 
