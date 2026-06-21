@@ -224,7 +224,7 @@ label chapter1:
     \"If you ask me, the mouthy one is toward the end of its rope. Management won't decommission them unless they're {i}really{/i} defective, though.{w}
     Fuckers are penny-pinching so hard that they'll still send fragmented Canaries on missions.{w}
     Who knows, maybe {i}it'll put itself down{/i} in front of its sister. Save us a bullet or two.\""""
-    show 637 scared
+    show 637 hurtless
     a "Laughter."
     # TODO bunny glitch????
     nvl clear
