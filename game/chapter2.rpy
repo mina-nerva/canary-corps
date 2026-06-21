@@ -5,7 +5,7 @@ label chapter2:
 
     scene bg surface with slowfade
 
-    play music "heavensongslowed.ogg"
+    
     a """The helicraft comes to a landing on a strip of asphalt.{w}
     928 and 637 begin their final equipment checks in silence. Hatches, panels, internal machinery, all clear.
 
@@ -14,9 +14,9 @@ label chapter2:
 
     \"Hey. No trouble this time.\"
 
-    They give 637 a push on the shoulder to emphasize the point.
-
-    Neither of the Canaries pay much attention to the other as they take in the massive, looming manufacturing facility they're being escorted towards.
+    They give 637 a push on the shoulder to emphasize the point."""
+    play music "howivemissedintroslowed.ogg"
+    a """Neither of the Canaries pay much attention to the other as they take in the massive, looming manufacturing facility they're being escorted towards.
 
     The building's crown of long-dead exhaust chimneys are framed by the low, encroaching clouds of dust that encase Helka-112's surface.
     
