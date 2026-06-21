@@ -47,11 +47,11 @@ label chapter2:
     show 928 open
     show soldiera shut
     nl "Sir."
-    show 928 dull
+    show 928 process
     "For a moment, 928's eyes go blank."
     show 928 process
     nl "Ping sent..." #TODO beep
-    nl open "Ping received. Zero percent packet loss."
+    nl "Ping received. Zero percent packet loss."
     nl "Mapping protocol active. Uploads to be committed at intervals permitting EM-storm clearance."
     show 928 shut
     show soldiera open
