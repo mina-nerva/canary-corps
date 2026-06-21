@@ -201,6 +201,7 @@ label chapter1:
     show 928 bummed
     show 637 sneer
     "928 stares at 637, unenthused. She'll put up with it for now."
+    show 637 neutral
     window hide
     show gray overlay darker zorder(9) with dissolve
     # possibly replace this with big textbox
@@ -222,15 +223,17 @@ label chapter1:
 
     \"If you ask me, the mouthy one is toward the end of its rope. Management won't decommission them unless they're {i}really{/i} defective, though.{w}
     Fuckers are penny-pinching so hard that they'll still send fragmented Canaries on missions.{w}
-    Who knows, maybe {i}it'll put itself down{/i} in front of its sister. Save us a bullet or two.\"
-
-    Laughter."""
+    Who knows, maybe {i}it'll put itself down{/i} in front of its sister. Save us a bullet or two.\""""
+    show 637 scared
+    a "Laughter."
     # TODO bunny glitch????
     nvl clear
     hide gray overlay darker
 
     show 928 dull
+    
     n "..."
+    show 637 neutral
 
     "928 gazes at a supply crate on the floor. 637 shakes her head and leans closer."
 
