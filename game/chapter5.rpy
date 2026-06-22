@@ -619,7 +619,7 @@ label chapter5:
 
     928 gathers herself and closes the distance to 637. {w}The edges of their figures are ribbons coiling around each other.
 
-    She attempts to perceive the form 637. {w}A swarm of parts conceal the shape. {w}928 manifests her own limbs to reach out towards them. {w}Numerous hands brush against each other.
+    She attempts to perceive the form of 637. {w}A swarm of parts conceal the shape. {w}928 manifests her own limbs to reach out towards them. {w}Numerous hands brush against each other.
 
     Then, 928 sees her.
 
