@@ -208,17 +208,17 @@ label chapter6:
     a "The shot is off-center from 928's torso. {w}The slug tears her injured arm apart below the shoulder. {w}The joint is severed completely, as cables fray and sparks fly."
     a "Shrapnel from the blast flies into her shoulder and embeds itself in a swath of the skin on her torso. {w}The sensation is agonizing."
     a "Dampening just enough of the pain to stay stable, she reorients herself. {w}She settles on a course of action in a split second."
-    
 
-    a "928 lurches forward, staying close to the ground.{w} Her gun arm shifts back to a ready hand."
-
-    a "The commander is up against the wall. {w}By the time she pumps the shotgun, 928 has already closed the distance. {w}Gritting her teeth, she clutches the barrel of the firearm and pushes upwards as hard as she can."
-    
     hide window
     nvl clear
     show cg fight with dissolve
     $ renpy.pause()
     show graynvl
+
+    a "928 lurches forward, staying close to the ground.{w} Her gun arm shifts back to a ready hand."
+
+    a "The commander is up against the wall. {w}By the time she pumps the shotgun, 928 has already closed the distance. {w}Gritting her teeth, she clutches the barrel of the firearm and pushes upwards as hard as she can."
+    
     a "It fires into the rock ceiling with another bang."
 
     a "The kickback finally loosens 928's grip.{w} Her commander yanks the gun to the side, rotating it away from the Canary."
