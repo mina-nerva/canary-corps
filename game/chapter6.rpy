@@ -176,15 +176,14 @@ label chapter6:
     hide 928 right
     hide vogan
     "{i}BANG!{/i}" #TODO bang
-    show 928 right hurt damage2
+    show 928 right hurt damage2 #TODO sprite change
     n "AAGH!"
     hide 928 right
 
     a "The round pierces the joint attaching 928's forearm. {w}Her bladed limb lashes back, dislocated and suddenly numb. {w}She reels and clutches her elbow. {w}The bullet inside her still spins, molten hot."
     a "Her mind floods with visceral, static noise."
-    show vogan
-    c sneer pinch "You useless fucking {i}robot{/i}."
-    hide vogan
+
+    a "You useless fucking {i}robot{/i}."
     a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. {w}The butt of the revolver smashes straight into her forehead, snapping her head backwards."
     a "The impact splays her out onto the ground, face up. {w}The commander takes a few steps back, and reaches into a black duffel bag."
     a "The room spins as 928 lays. {w}The light dangling from the ceiling burns into her vision."
@@ -199,12 +198,12 @@ label chapter6:
     a "The commander spots the motion and darts for cover. {w}She aims back at 928 with the shotgun as she moves."
     
     a "928 fires first." # bang! TODO
-    show vogan
-    c anger2 sweat "FUCK!"
-    hide vogan
+
+    a "\"FUCK!\""
+
     a "The blast grazes the lower side of her torso, beneath her body armor. {w}Blood seeps into her now torn outfit. {w}It throws her balance, but she stabilizes herself just long enough to return fire."
 
-    "{i}BOOM!{/i}" # bang! TODO
+    a "{i}BOOM!{/i}" # bang! TODO
 
     a "The shot is off-center from 928's torso. {w}The slug tears her injured arm apart below the shoulder. {w}The joint is severed completely, as cables fray and sparks fly."
     a "Shrapnel from the blast flies into her shoulder and embeds itself in a swath of the skin on her torso. {w}The sensation is agonizing."
