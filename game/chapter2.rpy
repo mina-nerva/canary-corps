@@ -205,7 +205,7 @@ label chapter2:
 
     s @ sneer "Oh, all kinds of stuff. I keep getting assigned to new commanders. "
     show 637 drool
-    extend "Seems everyone wants a piece of me. "
+    extend "Everyone wants a piece of me. "
     show 637 neutral
     "928 glances at her partner."
 
