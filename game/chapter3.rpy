@@ -170,7 +170,7 @@ label chapter3:
 
     n @ mad "Then we keep our eyes open for drones. The retrieval squadron is responsible for clean-up. Our duty is to find a path."
 
-    "928 takes the lead as she steps into one of the buildings through a waist-high window. 637 follows close."
+    "928 takes the lead as she steps into one of the buildings through a waist-high window. 637 shadows her."
 
     s hurtless "Right. Yeah. Okay."
     window hide
@@ -181,7 +181,7 @@ label chapter3:
     a """The corridors of the residential building are narrow, and difficult to see in.{w}
     Doorways line both walls, many closed, others spilling into the darkness of the vacant rooms behind them.
 
-    928 keeps a close eye on each opening they pass. 637 examines the cameras, which crane down on sight-lines of each hall.{w}
+    928 keeps an eye on each opening they pass. 637 examines the cameras, which crane down on sight-lines of each hall.{w}
     So many systems in this complex are destroyed or cut-off, but power distribution is never consistent.
     
     928 boldly rounds a corner."""
@@ -201,13 +201,13 @@ label chapter3:
     # larger textbox?
     show 637 -squint
 
-    "She nods, appreciative. They stick close to the walls to minimize their presence.{w} 637's gait never quite syncs up with 928's, but she stays close behind."
+    "She nods, appreciative. They stay to the walls to minimize their presence.{w} 637's gait never quite syncs up with 928's, but she stays close behind."
     show 928 mad
     "They bump into each other a few times. 928 tries her best to ignore it.{w} As they move past a camera, 928 stops beneath it to slice its data-line."
     
-    "637 sidles up close to her and leans her arm up on the wall. {nw}"
+    "637 sidles up to her and leans her arm up on the wall. {nw}"
     show 928 fluster
-    extend "The close contact flusters 928 again.{w} She looks away before 637 can notice."
+    extend "The contact flusters 928 again.{w} She looks away before 637 can notice."
 
     show 928 dull
     s sneer "Y'know, we {i}are{/i} alone. "
@@ -295,7 +295,7 @@ label chapter3:
     hide 637 left with dissolve
 
     a "One more drone rushes 928. It leaps."
-    a "She attempts to skewer it, but it dodges. The motion leaves her open, and the assailant closes in. {w}It kicks off the wall and hurtles directly for her neck."
+    a "She attempts to skewer it, but it dodges. The motion leaves her open, and the assailant takes advantage. {w}It kicks off the wall and hurtles directly for her neck."
     a "It misses by a matter of inches, and latches onto the front of her torso like a vise.{w} The fiber alloy composing her skin strains and bends, starting to tear open.{w} She flails, trying to pull it off."
     a "Stumbling backward, her feet fail to make contact with the ground, sending her falling through a doorway."
     hide 928 right
@@ -483,7 +483,7 @@ label chapter3:
     Had she been making noises like that the whole time 637 repaired her?{w}
     It's unprofessional.{w}
     Why should a Canary be feeling like this, in the middle of a mission, no less?{w}
-    She clenches her jaw, mouth closed. What would her commander think if she saw–
+    She clenches her jaw, mouth shut. What would her commander think if she saw–
 
     637 pets her partner's face again. 
 
@@ -505,7 +505,7 @@ label chapter3:
     She centers herself. 928's body is still shivering.{w}
     Her mind needs time to settle down, and right now, she needs someone to help her through this.
 
-    637 examines her crystalline face.{w} 928's eyes are closed, but her expression shifts with each turn in her thoughts.
+    637 examines her crystalline face.{w} 928's eyes aren't open, but her expression shifts with each turn in her thoughts.
 
     When 637 notices a pout start to form, she applies the slightest bit of pressure to her cheek and pets the worries right out of her head."""
 
