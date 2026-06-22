@@ -435,7 +435,7 @@ label chapter2:
 
     s "Shut up. I know your type. {w}You put on a flat, vacant face while they order you around. {w}You keep the filters on around the clock, curled up in the back of your own brain."
     s "Pretending you're nothing but a drone for the higher-ups.{w} You let it all drift right by you, but you can't help hoping for an ounce of recognition, praise, thanks, anything from those shitheads."
-    s "I know {i}she{/i} dangles it right in front of you. But she won't give you any.{w} Why would she? No need to thank a {i}tool{/i}."
+    s "I know she dangles it right in front of you. But she won't give you any.{w} Why would she? No need to thank a {i}tool{/i}."
 
     n "Ngh..."
 
