@@ -342,7 +342,7 @@ label chapter2:
 
     a "Despite her confusion, 928 turns to continue walking.{w} 637 follows, brushing the dust off herself as she goes."
 
-    scene bg elevator off with fade
+    # scene bg elevator off with fade
 
     a "They approach a room built into the wall of the building.{w} Inside, a decrepit metal shutter blocks a rectangular platform."
     nvl clear
