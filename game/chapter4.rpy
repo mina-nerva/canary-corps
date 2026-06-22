@@ -251,7 +251,7 @@ label chapter4:
     "She turns to her partner, who staggers toward her on the catwalk, panting. {w}637 holds herself up by the railing. 928 comes to lean next to her."
     show 928 smile
 
-    s hurtless "...Hah. Fuck... {w}I guess you {i}are{/i} a decent shot."
+    s hurtless "...Hah...fuck... {w}I guess you {i}are{/i} a decent shot."
     show 637 smile
 
     "637 gathers herself and holds out her hand to 928."
