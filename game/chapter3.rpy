@@ -528,21 +528,19 @@ label chapter3:
 
     n @ awkward "I... I think I'm ready to talk about it."
 
-    show 637 elated
     "It's the first full sentence 928 has managed since she was wounded."
 
-    s "Alright. How are you feeling?" #open 637 face
+    s open "Alright. How are you feeling?" #open 637 face
     show 637 smile
 
     n dizzy2 "Ummm..."
     extend @ dizzy1 "Hah... You know..."
 
-    show 637 elated
     "928 trails off."
 
     show 928 plead
 
-    s @ wink "...Do I know?"
+    s @ hurtless "...Do I know?"
 
     n @ awkward "I... um... disabled the blockers."
 
@@ -556,24 +554,24 @@ label chapter3:
     n @ pleadgrin "And after we fell. How something's better than nothing. "
     extend @ dizzy1 "I wanted to try it..."
 
-    s @ sneer "You certainly picked an interesting time."
+    s @ open "You certainly picked an interesting time."
     s @ hurtless "Right before you get {i}torn open by a drone.{/i}{w} Not to mention the lack of a heads-up. When did you even do that?"
 
     show 637 sincere
     n @ despair "In the elevator, I-I'm sorry...{w} I had no idea that would..."
 
-    s wink "Hey. Don't sweat it. We got through it."
+    s sincopen "Hey. Don't sweat it. We got through it."
     show 637 smile
 
     n @ awkward "Yeah. Um...{w} It was very overwhelming. {w}I... still can't quite wrap my head around it. {w}I think I get what you meant now, though. About the thrill of it.{w} Or whatever."
     n @ pleadgrin "It was horrible...{w} but it was, you were, uh...{w} nice..."
 
-    s @ elated "Ahaha, about that.{w} I mean, I {i}do{/i} agree, being present is great, it's just..."
+    s @ open "Ahaha, about that.{w} I mean, I {i}do{/i} agree, being present is great, it's just..."
     s @ hurtless "Generally, I think...{w} surgery is a pretty appropriate time for... pain dampening."
 
     n fluster blush "Ah."
     show 928 -blush
-    s elated "But, hey! Welcome to the club. "
+    s sincopen "But, hey! Welcome to the club. "
     extend @ wink "Don't tattle to Vogan, she'll think you're insane."
 
     n bummed "..."
@@ -597,7 +595,7 @@ label chapter3:
     n awkward "Oh, yes, that too. Down to exact specification.{w} But I meant... um... after."
     show 928 plead
 
-    s elated "You mean..."
+    s hurtless "You mean..."
 
     show 637 neutral # maybe todo
     "637 gives 928 an expectant, nervous look. 928's words come out quiet."
@@ -612,7 +610,7 @@ label chapter3:
 
     n awkward "I'm still... not sure what to make of all this. I-I guess I need some time to think."
 
-    s wink "Well, we have a long, hopefully boring mission ahead of us, so think your head off, dork."
+    s sincopen "Well, we have a long, hopefully boring mission ahead of us, so think your head off, dork."
     show 637 smile
 
     show 928 shut
