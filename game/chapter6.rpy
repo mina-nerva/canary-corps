@@ -324,7 +324,7 @@ label chapter6:
     n @ open "Yeah... {w}about that..."
     n awkward "I neutralized her."
 
-    s surprise "Seriously.{w} Holy shit."
+    s surprise "Seriously?{w} Holy shit."
 
     show 637 elated blush
     show 928 plead blush
