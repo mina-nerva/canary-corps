@@ -344,7 +344,7 @@ label chapter3:
     show graynvl
 
     a "\"Fuck, you're–\"" #TODO we dont do this anywhere else, idk how to handle it PROB FINE
-    a "928 grabs her by the collar with both hands and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
+    a "928 grabs 637 by the collar and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
     a "928 presses their lips against each other. 637's eyelids sink."
     a "The kiss is dry."
     a "637 tries to match the force 928 is exerting, then pauses, grabs 928's head and frees herself. She speaks cautiously."
