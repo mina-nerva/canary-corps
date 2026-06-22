@@ -358,7 +358,7 @@ label chapter6:
     show 928 shut
     "928 replies over choppy breath."
 
-    n @ open "We should leave the area. {w}Gotta distance ourselves from Etheridge. {w}And then from Neuman-Keere. Use the tunnels. They dunno what we know."
+    n @ open "We should leave the area. {w}Gotta distance ourselves from Etheridge. {w}And then from Neuman-Keere. Use the tunnels. They don't know what we know."
     show 928 smile
     s @ sincopen "Smart. Get around 'em. {w}Now let's make a breakaway before these idiots collapse themselves underground."
 
