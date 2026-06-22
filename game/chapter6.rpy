@@ -10,7 +10,7 @@ label chapter6:
     a "\"Wake up, unit 928.\""
     a "Searing light floods 928's head as she flits open her eyes."
     a "Ears ringing, sight blurred, she attempts to make sense of her surroundings."
-    a "She hears muffled, distant bangs.{w} She's sitting on a stone floor, back to the wall. {w}Blinking regulates the light, but not by much."
+    a "She hears muffled, distant bangs.{w} She's sitting on a chair. {w}Blinking regulates the light, but not by much."
     a "There's something tall standing over her, but the shape isn't coming together."
 
     
