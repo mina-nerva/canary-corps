@@ -443,11 +443,11 @@ label chapter4:
 
     s @ surprise "...Ah."
 
-    "928 sighs and gazes upwards. {w}Another giant, dead fan is positioned above the checkpoint."
+    "928 sighs and gazes upwards. {w}A ventilation unit is positioned above the checkpoint."
 
-    n awkward "Hypothetically, that room's ventilation could be accessible through..."
+    n awkward "Hypothetically, that room could be accessible through..."
 
-    "She points to the fan."
+    "She points to the unit."
     nvl clear
     n open "...there."
     show 928 shut
