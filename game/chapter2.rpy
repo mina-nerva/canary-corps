@@ -281,7 +281,7 @@ label chapter2:
     show 928 right alert with dissolve
     "She gets up from the crater of debris, and pats at the equipment on her head and torso. "
     show 928 shut
-    extend "Ruling out any damage, she turns to look for her companion."
+    extend "Ruling out any significant damage, she turns to look for her companion."
     "637 lays on the ground nearby in a similar pile, eyes shut, gritting her teeth."
 
     n open "Unit 637."
