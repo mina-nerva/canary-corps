@@ -183,7 +183,7 @@ label chapter6:
     a "The round pierces the joint attaching 928's forearm. {w}Her bladed limb lashes back, dislocated and suddenly numb. {w}She reels and clutches her elbow. {w}The bullet inside her still spins, molten hot."
     a "Her mind floods with visceral, static noise."
 
-    a "You useless fucking {i}robot{/i}."
+    a "You worthless {i}machine{/i}."
     a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. {w}The butt of the revolver smashes straight into her forehead, snapping her head backwards."
     a "The impact splays her out onto the ground, face up. {w}The commander takes a few steps back, and reaches into a black duffel bag."
     a "The room spins as 928 lays. {w}The light dangling from the ceiling burns into her vision."
