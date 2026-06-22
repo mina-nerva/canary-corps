@@ -513,7 +513,7 @@ label chapter3:
     stop music1 fadeout 5.0
     
 
-    "Once 928 began to respond to language again, 637 managed to relocate them both to one of the residential rooms.{w} They sit against a wall pressed to each other side-by-side."
+    "Once 928 begins to respond to language again, 637 manages to relocate them both to one of the residential rooms.{w} They sit against a wall pressed to each other side-by-side."
     show 928 right damage1 awkward
     show 637 left d sincere
     with dissolve
