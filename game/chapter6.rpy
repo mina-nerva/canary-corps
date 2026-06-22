@@ -187,7 +187,7 @@ label chapter6:
     hide vogan
     a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. {w}The butt of the revolver smashes straight into her forehead, snapping her head backwards."
     a "The impact splays her out onto the ground, face up. {w}The commander takes a few steps back, and reaches into a black duffel bag."
-    a "The room spins as 928 lays supine. {w}The light dangling from the ceiling burns into her vision."
+    a "The room spins as 928 lays. {w}The light dangling from the ceiling burns into her vision."
     a "The noise in her head recedes into a serene, eerie calm. {w}She pictures 637. The way she snickered. Her verbal jabs. {w}The look on her face when she took charge. Her embrace."
 
     a "928's vision sharpens. She props herself up on her uninjured arm."
