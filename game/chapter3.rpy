@@ -441,7 +441,7 @@ label chapter3:
     \"Just one more thing and you'll be all fixed. Understand?\"
 
     The pause in procedures allows 928 to collect her mind. She replies to 637 with a slow, deep nod.{w}
-    She sees 637 grab an aerosol spray bottle. After a beat, she puts it together in her head.{w}
+    She sees 637 grab an aerosol spray bottle. After a beat, 928 puts it together in her head.{w}
     It must be the patch spray. She recalls being trained to use it to cauterize–
 
     The deafening hiss of the spray breaks 928's train of thought. Her chest is ice-cold.
