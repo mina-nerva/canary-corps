@@ -113,7 +113,7 @@ label chapter4:
     n pissed blush "YES!"
     show 928 mad
     show 637 sneer
-    "928 starts to blush with exertion. 637 snickers at her and backs away."
+    "637 snickers at her and backs away."
     nvl clear
     show 928 -blush
     s @ hurtless "Damn..."
