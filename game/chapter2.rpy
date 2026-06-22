@@ -235,14 +235,14 @@ label chapter2:
 
     s scowl "...Wait. You're telling me she's kept you with her the {i}whole{/i} time you've been active? {w}They don't rotate you around at all?"
     show 928 fluster blush
-    show 637 sneer
+    show 637 squint
     "637 turns around and catches a fleeting look of embarrassment on 928's face."
 
     n bummed "..."
 
     "637 faces the path ahead and chuckles to herself."
 
-    s @ drool "'Strong, beneficial supervision,' huh?"
+    s @ sneer "'Strong, beneficial supervision,' huh?"
     
     # larger textbox?
     window hide
