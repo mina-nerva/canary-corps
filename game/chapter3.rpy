@@ -300,7 +300,7 @@ label chapter3:
     a "Stumbling backward, her feet fail to make contact with the ground, sending her falling through a doorway."
     hide 928 right
     #TODO crack
-    a "The battery pack on 928's back cracks hard against the floor. "
+    a "The tracker box on 928's back cracks hard against the floor. "
     show gray overlay darker zorder(9)
     extend "For a moment, she blinks out of consciousness. "
     extend "Audio processors ringing, she regains her sight."
