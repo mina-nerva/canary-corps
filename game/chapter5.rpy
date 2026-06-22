@@ -201,7 +201,7 @@ label chapter5:
     "At the wall opposite to the entrance, a still figure slumps beneath a flickering fluorescent light.{w} Next to it, two more figures lay on their sides."
     n @ shock "Oh my god."
 
-    "The body on the wall is dressed in a standard Laskey miner uniform. {w}A bright green vest, stained near the ribs with a brown-red color. On the ground near its left hand is a rusted knife."
+    "The body on the wall is dressed in a standard Laskey miner uniform. {w}A bright orange vest, stained near the ribs with a brown-red color. On the ground near its left hand is a rusted knife."
     show 928 fluster
     "Spots of shriveled flesh cling around its gaping jaw.{w} 928 gazes at its empty eye sockets. She wonders how synthetic flesh decays.{w} She pictures 637's face..."
 
@@ -591,7 +591,7 @@ label chapter5:
 
     #show mental
     
-    a """The free fall continues, but now 928 finds herself in a void. {w}There is no up or down.{w} It envelopes her and dissolves her discomfort.
+    a """The free fall continues, but now 928 finds herself in a void. {w}There is no up or down.{w} It envelops her and dissolves her discomfort.
 
     Spinning and falling become the same thing; a perpetual, directionless motion going nowhere and everywhere."""
 
