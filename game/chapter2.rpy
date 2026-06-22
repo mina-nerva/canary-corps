@@ -380,10 +380,10 @@ label chapter2:
     n @ mad "Sixteen."
     show 928 bummed
 
-    s @ scowl "Sixteen missions of climbing through shit and rubble.{w} I've never seen a Canary go through that much and still act like they're a brainless robot."
-    extend sneer " And for what? So your favorite boss can give you some {i}feedback{/i}?"
+    s scowl "Sixteen missions of climbing through shit and rubble.{w} I've never seen a Canary go through that much and still act like they're a brainless robot."
+    extend " And for what? So your favorite boss can give you some {i}feedback{/i}?"
     s "Is she {i}that{/i} good to you?"
-    extend @ drool " Or, are you just that fucking desperate?"
+    extend " Or, are you just that fucking desperate?"
     show 928 dull
     show 637 squint
 
@@ -411,8 +411,9 @@ label chapter2:
 
     "637 steps towards her."
 
-    s drool "Aw, that's cute."
+    s scowl "Aw, that's cute."
     show 928 alert
+    show 637 squint
     extend " Tell me, how exactly does {i}Vogan{/i} value such a loyal, hard-working Canary like you?"
 
     n fluster "Vo-"
