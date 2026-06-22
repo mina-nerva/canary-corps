@@ -169,7 +169,7 @@ label chapter2:
     s @ hurtless "Anyways, if they {i}were{/i} going to reformat me, they would have done it already."
     s @ sneer "Etheridge is spread so thin as it stands! Besides, they've got me on a leash as much as you."
 
-    "She taps a glowing spot on her back."
+    "She taps the glowing tracker box on her back."
 
     s @ sneer "Couldn't get rid of it if I tried! Haha."
     show 637 neutral
