@@ -409,7 +409,7 @@ label chapter4:
 
     a "The elevated catwalk ends, leading into an alcove in the face of the wall."
     a "At the back of the space, a large blast door reading 'QUARRY F6' bars the way to the mineshafts proper."
-    a "Adjacent to it, a small security building labeled sits, seemingly unoccupied."
+    a "Adjacent to it, a small security building labeled sits seemingly unoccupied."
     a "A vague impression of a control panel is visible through the blurry, tempered glass windows that face the door."
     hide graynvl
     show 928 right damage1
