@@ -337,20 +337,20 @@ label chapter3:
     play music "howivemissedyouB.ogg"
     a "928 continues staring. Her eyes are wide, mouth slack. "
     extend "637 sees that something's off with her chest. She kneels down over 928 to inspect."
-    a "\"Fuck, you're–\"" #TODO we dont do this anywhere else, idk how to handle it PROB FINE
-    a "928 grabs her by the collar with both hands and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
-    a "928 presses their lips against each other. 637's eyelids sink."
-    a "The kiss is dry."
-    a "637 tries to match the force 928 is exerting, then pauses, grabs 928's head and frees herself."
-    nvl clear
-    # TODO bunny glitch?
-    show 637 left blush scared
-    s "What the fuck?"
     window hide
     show cg repair with dissolve
     $ renpy.pause()
     window show
     show graynvl
+
+    a "\"Fuck, you're–\"" #TODO we dont do this anywhere else, idk how to handle it PROB FINE
+    a "928 grabs her by the collar with both hands and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
+    a "928 presses their lips against each other. 637's eyelids sink."
+    a "The kiss is dry."
+    a "637 tries to match the force 928 is exerting, then pauses, grabs 928's head and frees herself. She speaks cautiously."
+
+    a "\"What the fuck?\""
+    
     a "928 groans and slumps against the wall. There's a long black mark on her chest."
     extend " 637 leans in to examine the damage."
     a "The skin surrounding the jagged gash frays outward. Blue coolant bubbles out onto her abdomen."
