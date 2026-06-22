@@ -368,7 +368,7 @@ label chapter6:
     show 928 smile
     s sneer "I love you too, idiot."
     show 928 shine
-    "She winks. Warmth runs through 928's face.{w} The two of them push forward into the fray."
+    "Warmth runs through 928's face.{w} The two of them push forward into the fray."
     stop music fadeout 5.0
 
     show black with slowdissolve
