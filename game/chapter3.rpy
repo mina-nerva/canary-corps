@@ -370,7 +370,7 @@ label chapter3:
     She recalls how 928 handled the fall from that overhang on the surface, then looks at her currently distorted face.{w}
     It clicks. She must've shut off the dampeners.
 
-    \"You crazy fuck. You're in shock.\"
+    \"You're in shock.\"
 
     At her words, 928 manages a couple gazes at 637, but her eyes remain wild and flitting.{w}
     Even if 637 asked her to flip them back on, she's in no state to make sense of the request.{w}
