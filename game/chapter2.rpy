@@ -364,7 +364,7 @@ label chapter2:
     show 637 surprise
     n @ open "Found it."
 
-    s @ mad "Okaaaay, never mind then!"
+    s mad "Okaaaay, never mind then!"
     stop music fadeout 5.0
 
 
