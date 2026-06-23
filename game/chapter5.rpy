@@ -521,12 +521,11 @@ label chapter5:
     
     a "928 and 637 sit side-by-side. A tangle of repurposed wires protrudes from the back of 928's neck beneath an unscrewed panel."
     a "She holds the exposed end of the wire in her hand. 637 is turned away, holding her hair in a bunch off to the side."
-    a "The same access panel is there on her own neck, waiting for a connection."
+    na "The same access panel is there on her own neck, waiting for a connection."
     hide graynvl
     show 637 left sincere
     show 928 right damage1
     with dissolve
-    # bunny glitch
     n @ open "Okay. Remember, our first priority is to connect our trackers.{w} Find the root where we store the keys."
 
     s @ hurtless "Right, okay."

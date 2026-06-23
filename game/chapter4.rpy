@@ -21,9 +21,9 @@ label chapter4:
     With no one to keep the temperature regulated, the pipes and machinery have melted into new, useless forms.{w}
     Whether unassisted humans could have ever survived down here without specialized equipment is an open question.
 
-    Now, it's left only for the Canaries.
+    Now, it's left only for the Canaries."""
 
-    928 glances at 637, then back at the scenery.{w}
+    na """928 glances at 637, then back at the scenery.{w}
     The station platform they stand on is elevated meters above the catwalks proper.{w}
     A lack of rails in a spot indicates where stairs would have connected them. Navigating across might be tricky."""
     hide graynvl
@@ -33,7 +33,6 @@ label chapter4:
     show 928 right damage1
     show 637 left
     with dissolve
-# TODO bunny glitch
     n @ open "Maybe we could look for a–"
 
     hide 637 left with dissolve
@@ -85,9 +84,8 @@ label chapter4:
     with dissolve
     a "928 flails her arms as she hurtles through the air. The fear fluttering through her slows the moment down to an excruciating length."
     a "She barely registers the platform appearing beneath her, securing her safety. {w}Her feet smack onto the catwalk with a rattle. {w}Brought to her senses, 928 attempts to redirect the impact of the landing with a roll, like 637, but she's a touch too late."#TODO thump!
-    a "Her legs buckle, and she tilts forward."
+    sa "Her legs buckle, and she tilts forward."
     hide graynvl
-# TODO bunny glitch
     show 928 right yelp damage1
     show 637 left
     s sneer "Woah!"
@@ -138,9 +136,9 @@ label chapter4:
     No wall-mounted cameras in sight, only a sparse number of hovering drones on autopilot, making the same rounds, over and over.
 
     637 has been taking pot shots at them for the last few minutes. 928 keeps up a brisk pace, ignoring her.{w}
-    637 spots one gliding perpendicular to their trajectory in the distance.
+    637 spots one gliding perpendicular to their trajectory in the distance."""
     
-    She grabs 928's shoulder."""
+    sa "She grabs 928's shoulder."
     hide graynvl
     window hide
     with dissolve
@@ -148,7 +146,6 @@ label chapter4:
     show 928 right damage1
     show 637 left smile
     with dissolve
-# TODO bunny glitch
     s @ sneer "Come onnnnn. Humor me. You try one."
 
     n @ open "No."
@@ -410,7 +407,7 @@ label chapter4:
     a "The elevated catwalk ends, leading into an alcove in the face of the wall."
     a "At the back of the space, a large blast door reading 'QUARRY F6' bars the way to the mineshafts proper."
     a "Adjacent to it, a small security building labeled sits seemingly unoccupied."
-    a "A vague impression of a control panel is visible through the blurry, tempered glass windows that face the door."
+    na "A vague impression of a control panel is visible through the blurry, tempered glass windows that face the door."
     hide graynvl
     show 928 right damage1
     show 637 left
@@ -418,7 +415,6 @@ label chapter4:
 
     play music "minesong2slowed.ogg"
 
-# TODO bunny glitch
     n @ open "If we can get into that security room, we could open the barrier."
 
     s @ sneer "Are you going to, uh, hack it open or something?"
@@ -467,11 +463,11 @@ label chapter4:
 
     a "928 and 637 drop through the ceiling of the security booth through the vent."
     a "They kneel upon landing, weapons at the ready, scanning the unfamiliar room."
-    a "The vent was intact when they found it. {w}The only way a threat could have entered the room would be an alternate security door. {w}However, both entrances appear untampered."
+    sa "The vent was intact when they found it. {w}The only way a threat could have entered the room would be an alternate security door. {w}However, both entrances appear untampered."
     show 928 right damage1 hshut
     show 637 left hgrin
     with dissolve
-    # TODO bunny glitch
+
     s @ hgrin "Looks clear to me!"
 
     n @ hopen "Affirmative."

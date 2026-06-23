@@ -132,7 +132,6 @@ label chapter2:
 
     Pieces of dead automatons and concrete chunks litter the floor.{w}
     It's clear this facility was more recently a war zone than any hub for manufacturing."""
-    # TODO bunny glitch????
     nvl clear
     window hide
     show 637 left

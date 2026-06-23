@@ -5,7 +5,9 @@
 
 define n = Character("928", color="#f07575", image = "928", namebox_style = "namebox_left", callback = name_callback, cb_name = "928")
 define nl = Character("928", color="#f07575", image = "928", namebox_style = "namebox_right", callback = name_callback, cb_name = "928")
+define na = Character(kind = nvl, callback = name_callback, cb_name = "928")
 define s = Character("637", color="#ffc75f", image = "637", namebox_style = "namebox_right", callback = name_callback, cb_name = "637")
+define sa = Character(kind = nvl, callback = name_callback, cb_name = "637")
 
 define Deep = Character("Soldier", color="#abceb7", image="soldiera", namebox_style="namebox_s", who_size = 40, callback = name_callback, cb_name = "soldiera")
 define Squeaky = Character("Soldier", color="#c7baa2", image="soldierb", namebox_style="namebox_s", who_size = 40, callback = name_callback, cb_name = "soldierb")

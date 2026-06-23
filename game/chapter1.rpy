@@ -225,8 +225,7 @@ label chapter1:
     Fuckers are penny-pinching so hard that they'll still send fragmented Canaries on missions.{w}
     Who knows, maybe {i}it'll put itself down{/i} in front of its sister. Save us a bullet or two.\""""
     show 637 hurtless
-    a "Laughter."
-    # TODO bunny glitch????
+    na "Laughter."
     nvl clear
     hide gray overlay darker
 

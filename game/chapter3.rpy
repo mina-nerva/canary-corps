@@ -144,12 +144,11 @@ label chapter3:
 
     As they progress, debris covers more and more of the street.{w}
     637 watches their backs, following close behind 928, who moves forward with purpose.{w}
-    They follow the path of the cargo road that runs between the buildings.
+    They follow the path of the cargo road that runs between the buildings."""
 
-    Upon rounding a corner, a steep, jagged slope of boulders comes into view down the road.{w}
+    na """Upon rounding a corner, a steep, jagged slope of boulders comes into view down the road.{w}
     It stretches above the rooftops of the buildings adjacent to it."""
     window hide
-# TODO bunny glitch
     show 637 left
     show 928 right
     with dissolve
@@ -175,17 +174,16 @@ label chapter3:
     s hurtless "Right. Yeah. Okay."
     window hide
 
-    # larger textbox?
     scene bg corridor with slowfade
     window show
     a """The corridors of the residential building are narrow, and difficult to see in.{w}
     Doorways line both walls, many closed, others spilling into the darkness of the vacant rooms behind them.
 
     928 keeps an eye on each opening they pass. 637 examines the cameras, which crane down on sight-lines of each hall.{w}
-    So many systems in this complex are destroyed or cut-off, but power distribution is never consistent.
+    So many systems in this complex are destroyed or cut-off, but power distribution is never consistent."""
     
-    928 boldly rounds a corner."""
-# TODO bunny glitch
+    sa "928 boldly rounds a corner."
+
     show 637 left
     show 928 right
     with dissolve
@@ -258,7 +256,7 @@ label chapter3:
     hide dog
     with dissolve
     a "Oil spurts out of its back."
-    # TODO bunny glitch? maybe not
+
     hide graynvl
     nvl clear
     s hgrin "Thanks!"
@@ -318,7 +316,6 @@ label chapter3:
     with dissolve
     a "928 sees 637 standing above her, gun still aimed at the attacker.{w} They both heave, staring at each other."
     hide graynvl
-    # TODO bunny glitch possible
     s scared "..."
     nvl clear
 
@@ -517,7 +514,6 @@ label chapter3:
     show 928 right damage1 awkward
     show 637 left d sincere
     with dissolve
-# TODO bunny glitch????
     n @ awkward "Uhh..."
 
     show 637 smile
