@@ -202,11 +202,11 @@ layeredimage vogan:
         attribute null default null
 
 image mental:
-    "images/@2.5/mental1.png"
+    "images/mental1.png"
     pause 0.7
-    "images/@2.5/mental2.png"
+    "images/mental2.png"
     pause 0.7
-    "images/@2.5/mental3.png"
+    "images/mental3.png"
     pause 0.7
     repeat
 
