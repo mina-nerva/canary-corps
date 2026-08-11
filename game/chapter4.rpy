@@ -6,7 +6,7 @@ label chapter4:
     window show
     show graynvl
     with dissolve
-    play music "minesong1stretchedB.ogg"
+    play music "<from 435>minesong1stretchedA.mp3" fadein 30.0
     a """Orange light emanates from the end of the railway tunnel connecting the residential district with the foundry.{w}
     The two Canaries see a concrete station platform come into view, along with piles of train parts and stone debris that blanket the rails ahead.
 
@@ -288,7 +288,7 @@ label chapter4:
     n @ despair "I don't know how to make sense of it. {w}Is it scarier that I'm going off track, or that I don't want it to stop? "
     extend @ yelp "Am I bugged? Or-"
     n @ grit "Aghh!!!"
-    play music "howivemissedintroslowed.ogg"
+    play music "howivemissedintroslowed.mp3"
     show 637 sincere
 
     "She puts her face in her hands. It's too much. 637 taps the rail with her fingers, chuckling to herself."
@@ -413,7 +413,7 @@ label chapter4:
     show 637 left
     with dissolve
 
-    play music "minesong2slowed.ogg"
+    play music "minesong2slowed.mp3"
 
     n @ open "If we can get into that security room, we could open the barrier."
 
@@ -568,7 +568,7 @@ label chapter4:
     s @ open "Come on, 928.{w} Be real with me. "
     extend @ sincopen "What's the matter?"
 
-    play music "angelsslowed.ogg"
+    play music "angelsslowed.mp3"
 
     show 928 plead
     "Flustered, 928 extricates herself from beneath the desk. {w}She stands, gazing at her feet, and hands the card back to 637."

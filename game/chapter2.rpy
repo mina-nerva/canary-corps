@@ -15,7 +15,7 @@ label chapter2:
     \"Hey. No trouble this time.\"
 
     They give 637 a push on the shoulder to emphasize the point."""
-    play music "howivemissedintroslowed.ogg"
+    play music "howivemissedintroslowed.mp3"
     a """Neither of the Canaries pay much attention to the other as they take in the massive, looming manufacturing facility they're being escorted towards.
 
     The building's crown of long-dead exhaust chimneys are framed by the low, encroaching clouds of dust that encase Helka-112's surface.

@@ -291,7 +291,7 @@ label chapter6:
     "New cuts and scratches overlap the old scars on her torso. {w}Dents line the metal on her limbs.{w} Her left eye remains swollen shut, and her nose is crooked."
 
     n "..."
-    play music "angelsslowedB.ogg"
+    play music "angelsslowedB.mp3"
 
     "637's head hangs low, but her eyes look up as a pair of robotic legs like her own step into view."
 

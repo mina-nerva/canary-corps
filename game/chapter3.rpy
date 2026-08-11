@@ -15,7 +15,7 @@ label chapter3:
     window hide
 
     show black with dissolve
-    play music "minesong1stretchedC.ogg"
+    play music "<from 697>minesong1stretchedA.mp3" fadein 30.0
     
     "MANUFACTURING - CYCLE 408 - 13:09"
     scene bg elevator on with fade
@@ -331,7 +331,7 @@ label chapter3:
     hide 928 right
     hide 637 left
     with dissolve
-    play music "howivemissedyouB.ogg"
+    play music "<from 165>howivemissedyou.mp3" fadein 30.0
     a "928 continues staring. Her eyes are wide, mouth slack. "
     extend "637 sees that something's off with her chest. She kneels down over 928 to inspect."
     window hide
@@ -446,7 +446,7 @@ label chapter3:
     In seconds, it heats up. {w}Hotter. And hotter. {w}It burns. Then it's an inferno.
 
     928 opens her mouth without making a sound.{w} She sees white. Her thoughts are cut."""
-    play music1 "howivemissedintroslowed.ogg"
+    play music1 "howivemissedintroslowed.mp3"
     a "There is only fire."
     window hide
     show black with slowdissolve
@@ -520,7 +520,7 @@ label chapter3:
     show 928 plead
     "637 perks up."
 
-    play music "angelsslowed.ogg"
+    play music "angelsslowed.mp3"
 
     n @ awkward "I... I think I'm ready to talk about it."
 

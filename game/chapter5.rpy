@@ -5,7 +5,7 @@ label chapter5:
     nvl clear
     window show
     show graynvl with dissolve
-    play music "cavesongslowed.ogg"
+    play music "cavesongslowed.mp3"
     a """After opening the blast doors, the Canaries take a long, vertical lift down into the mineshafts proper.
 
     The air grows colder, the earthen walls more claustrophobic. {w}Upon reaching the bottom, they step off of the lift.
@@ -348,7 +348,7 @@ label chapter5:
 
     a "Before 928 can respond, 637 smashes her shoulder into the center plank with all her weight."
     scene bg cache
-    play music "minesong2slowed.ogg"
+    play music "minesong2slowed.mp3"
     a "The door gives way. 637 stumbles, catches herself on the doorway, then turns to smirk at 928."
 
     a "The room is lit by a bulb hanging on a wire overhead. {w}On one wall, rows of wooden supply crates hold mining equipment sharpened into weapons and makeshift firearms."
@@ -442,7 +442,7 @@ label chapter5:
     "She pauses. 637 is silent."
 
     n @ yelp "...I don't want to go back."
-    play music "howivemissedintroslowed.ogg"
+    play music "howivemissedintroslowed.mp3"
 
     show 637 sadless
     "637 puts her hands on 928's face and presses her forehead to hers. The box is set aside.{w} 637 wraps her arms around her. 928 leans into the hug, relaxing into her partner, calming herself."
@@ -566,7 +566,7 @@ label chapter5:
     # hide 637 left
     # show 637 distort
     a "Then, she notices the lines."
-    play music "angelsinthesnowB.ogg"
+    play music "<from 330>angelsinthesnow.mp3" fadein 60.0
     a "They emanate outward from the edges of 637's figure, all parallel. {w}She's splitting apart. It's dizzying.{w} 928 feels herself swaying."
     a "With every motion, her vision unravels. {w}Then, it jumps back to normal, as if she hadn't moved at all. It disorients her.{w} She's spinning, losing track of where she is. {w}Her head hasn't moved an inch."
     show bg cache d2 with dissolve
