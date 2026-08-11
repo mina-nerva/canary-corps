@@ -243,6 +243,8 @@ init -10 python:
             sound = 'audio/928beep1.wav'
         elif speaking_char in ["637", "???"]:
             sound = 'audio/637beep1.wav'
+        elif speaking_char == "vogan":
+            sound = 'audio/voganbeep2.wav'
         if not interact:
             return
 
