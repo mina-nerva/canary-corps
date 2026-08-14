@@ -183,7 +183,7 @@ label chapter5:
     
     window show
     a "They stay close to the wall, passing through mechanical door into long-abandoned living quarters."
-    a "It's crowded with capsule bunk beds, each stacked three high. {w}Most of the thin mattresses are in a sorry state, with sheets torn to shreds or crumpled."
+    a "It's crowded with capsule bunk beds. {w}Most of the thin mattresses are in a sorry state, with sheets torn to shreds or crumpled."
     a "928 and 637 step in, weapons still raised. {w}Checking between each bunk, all they find is assorted trinkets and personal affects from whoever once lived here."
     window hide
     
