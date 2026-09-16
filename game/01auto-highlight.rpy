@@ -102,9 +102,10 @@ init -10 python:
     border_enabled = True
 
     renpy.music.register_channel("music1", "music")
-    renpy.music.register_channel("sound1", "sound")
+    renpy.music.register_channel("sound1", "sfx", loop=False)
     renpy.music.set_volume(0.7, channel="music")
     renpy.music.set_volume(0.7, channel="music1")
+    # dont think this is having any effect
     renpy.music.set_volume(0.5, channel="sound1")
 
     # Easing functions you can use
