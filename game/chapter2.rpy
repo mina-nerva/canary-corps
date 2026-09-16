@@ -145,7 +145,9 @@ label chapter2:
     s mad "I don't understand how you can take that shit lying down."
     show 637 squint
 
-    "637 kicks a bolt laying on the ground and sends it flying. It clangs off some nearby mech remains, sending an echo down the empty halls."
+    "637 kicks a bolt laying on the ground and sends it flying. {nw}"
+    play sound1 "sfx/clang.mp3"
+    extend "It clangs off some nearby mech remains, sending an echo down the empty halls."
     "928 grimaces at the sound."
 
     n @ mad "I don't understand why you're so consistently abrasive."
@@ -450,16 +452,17 @@ label chapter2:
 
     s "{i}There{/i} it is.{w} Deep under all those layers of programming, but they still left it in you.{w} They left it in me too, sis."
     s "And if your {i}commander{/i} isn't gonna do anything about it, then maybe I'll–"
-    scene bg breaker on
-    stop music
+    
 
     "928's hand slips, and throws the breaker."
+    scene bg breaker on
+    stop music
+    play sound1 "sfx/factorystartup.mp3"
 
     show 928 right alert
     show 637 left surprise
     with dissolve
 
-    play sound1 "sfx/factorystartup.mp3"
     "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. "
     extend "Outside the booth, the whir of revived motors makes clear that the power has returned. "
     show 928 -blush
