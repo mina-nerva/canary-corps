@@ -37,8 +37,9 @@ label chapter3:
 
     She removes one black wire from a circuit board in the panel, and inserts its exposed end into a different spot on the circuit.
 
-    The lights in the elevator flicker.{w}
-    Playing an approving tone, the display on the controls glows green.""" #TODO beep
+    The lights in the elevator flicker."""
+    play sound1 "sfx/canarypingaffirm.wav"
+    extend " Playing an approving tone, the display on the controls glows green."
     window hide
 
     show 928 right shine with dissolve
@@ -201,7 +202,9 @@ label chapter3:
 
     "She nods, appreciative. They stay to the walls to minimize their presence.{w} 637's gait never quite syncs up with 928's, but she stays close behind."
     show 928 mad
-    "They bump into each other a few times. 928 tries her best to ignore it.{w} As they move past a camera, 928 stops beneath it to slice its data-line." #TODO pliers
+    "They bump into each other a few times. 928 tries her best to ignore it.{w}"
+    play sound1 "sfx/pliers.mp3"
+    extend " As they move past a camera, 928 stops beneath it to slice its data-line."
     
     "637 sidles up to her and leans her arm up on the wall. {nw}"
     show 928 fluster
@@ -249,12 +252,18 @@ label chapter3:
     a "A jet-black, four-legged mechanical creature, now revealed in infrared, pounces at 637.{w} She scrambles to activate the rifle in her arm."
     show dog
     with dissolve
-    a "No time.{w} She blocks its protruding jaw with her weapon, its teeth sparking and scraping against it." #TODO stressboom
+    
+    a "No time.{w}"
+    play sound1 "sfx/stressboom.mp3"
+    extend " She blocks its protruding jaw with her weapon, its teeth sparking and scraping against it."
     show 928 hshut
     a "It's a Laskey security drone. 928 springs into action."
-    a "She dashes toward 637 and stabs the attacker with her blade." #TODO cutmetal
+    play sound1 "sfx/cutmetal.mp3"
+    a "She dashes toward 637 and {nw}"
+    
+    extend "stabs the attacker with her blade."
     hide dog
-    with dissolve
+
     a "Oil spurts out of its back."
 
     hide graynvl
@@ -273,9 +282,12 @@ label chapter3:
     show dog with dissolve
     a "Another drone lunges from the shadows, this time towards 928."
     show 637 hgrit
-    a "637 fires and hits it mid-air." # TODO canarygunecho
+    play sound1 "sfx/canarygunecho.mp3"
+    a "637 fires and hits it mid-air."
     hide dog with dissolve
-    a "The mechanical beast careens off-course, colliding with the wall and painting it with an inky fluid.{w} Three more shots and it stops moving."# TODO canarygunecho3
+    a "The mechanical beast careens off-course, colliding with the wall and painting it with an inky fluid.{w}"
+    play sound1 "sfx/canarygunecho3.mp3"
+    extend " Three more shots and it stops moving."
     hide graynvl
 
     n @ hopen "You can't depend on your rifle in close-quarters!"
@@ -288,17 +300,23 @@ label chapter3:
     show graynvl
     with dissolve
     show dog with dissolve
-    a "The onslaught continues. 928 moves with inhuman speed.{w} She swings at one drone jumping at her, slicing it through the torso." #TODO cutmetal
-    a "637 shoots one in the head and follows it up, impaling it through the back with her blade."# TODO canarygunecho
+    a "The onslaught continues. 928 moves with inhuman speed. "
+    play sound1 "sfx/cutmetal.mp3"
+    extend "She swings at one drone jumping at her, slicing it through the torso."
+    play sound1 "sfx/canarygunecho.mp3"
+    a "637 shoots one in the head and follows it up, impaling it through the back with her blade."
     hide 637 left with dissolve
 
     a "One more drone rushes 928. It leaps."
     a "She attempts to skewer it, but it dodges. The motion leaves her open, and the assailant takes advantage. {w}It kicks off the wall and hurtles directly for her neck."
+    play sound1 "sfx/dogbite1.mp3"
     a "It misses by a matter of inches, and latches onto the front of her torso like a vise.{w} The fiber alloy composing her skin strains and bends, starting to tear open.{w} She flails, trying to pull it off." #TODO dogbite1
-    a "Stumbling backward, her feet fail to make contact with the ground, sending her falling through a doorway." #TODO fall
+    play sound1 "sfx/fall.mp3"
+    a "Stumbling backward, her feet fail to make contact with the ground, sending her falling through a doorway."
     hide 928 right
-    #TODO punch1
-    a "The tracker box on 928's back cracks hard against the floor. " #TODO stressboom
+    play sound1 "sfx/punch1.mp3"
+    a "The tracker box on 928's back cracks hard against the floor. "
+    play sound1 "sfx/stressboom.mp3"
     show gray overlay darker zorder(9)
     extend "For a moment, she blinks out of consciousness. "
     extend "Audio processors ringing, she regains her sight."
@@ -309,11 +327,13 @@ label chapter3:
     show 928 grit
     extend "Not wasting a moment, the machine jumps to attack. 928 positions her arms to intercept it."
 
-    hide dog #TODO canarygunecho
+    hide dog
     stop music fadeout 5.0
-    a "A bang.{w} The drone goes flying, and collapses in a pile on the other side of the room.{w} Another shot neutralizes it." #TODO canarygun echo 
+    play sound1 "sfx/canarygunecho.mp3"
+    a "A bang.{w} The drone goes flying, and collapses in a pile on the other side of the room.{w}"
+    play sound1 "sfx/canarygunecho.mp3"
+    extend " Another shot neutralizes it."
     show 637 left hgrit combat at moreright
-    with dissolve
     a "928 sees 637 standing above her, gun still aimed at the attacker.{w} They both heave, staring at each other."
     hide graynvl
     s scared "..."
@@ -340,7 +360,7 @@ label chapter3:
     window show
     show graynvl
 
-    a "\"Fuck, you're–\"" #TODO we dont do this anywhere else, idk how to handle it PROB FINE
+    a "\"Fuck, you're–\""
     a "928 grabs 637 by the collar and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
     a "928 presses their lips against each other. 637's eyelids sink."
     a "The kiss is dry."
@@ -387,10 +407,11 @@ label chapter3:
     \"I need you to hold still for me, okay?\"
 
     928 exhales with a low grunt.{w}
-    637 grabs a small knife, and raises it perpendicular to 928's wound.{w}
-    She carefully slices toward the cut. 928 yelps. #TODO rip, stressboom
+    637 grabs a small knife, and raises it perpendicular to 928's wound."""
+    play sound1 "sfx/rip.mp3"
+    a "She carefully slices toward the cut. 928 yelps."
 
-    The synthetic fiber gives way as 637 leans in to assess the intensity of the damage.{w}
+    a """The synthetic fiber gives way as 637 leans in to assess the intensity of the damage.{w}
     She pulls back with a relieved sigh.
 
     \"It's shallow. You're lucky. Not {i}too{/i} much internal damage.{w} I am going to need to seal a few things up, though.\"
@@ -407,9 +428,9 @@ label chapter3:
     637 reaches inside, aiming for the deeper half of the coolant line, which has tumbled lower into her internal wiring and mechanics.{w}
     She pulls it up, and gives it a light tug to get it back into place.
 
-    \"AUGH!\" #TODO stressboom
-
-    928's addled neural system screams danger.{w}
+    \"AUGH!\""""
+    play sound1 "sfx/stressboom.mp3"
+    a """928's addled neural system screams danger.{w}
     She thrashes her limbs.{w}
     637 takes her free hand and pins 928 by the shoulder.
 
@@ -426,8 +447,9 @@ label chapter3:
     928 shudders, doing her best to keep still.
 
     Without pausing, 637 picks up the repair tape, and uses the knife to slice off a sufficient patch for sealing the wound from the inside.{w}
-    Using the cut she made prior, she pushes the tape beneath the fiber alloy, sticky side first.{w} #todo rubber
-    She presses it together to the inside of 928's skin, removing her hand before finishing.
+    Using the cut she made prior, she pushes the tape beneath the fiber alloy, sticky side first."""
+    play sound1 "sfx/rubber.mp3"
+    a """She presses it together to the inside of 928's skin, removing her hand before finishing.
 
     928 squeaks.
 
@@ -439,13 +461,15 @@ label chapter3:
 
     The pause in procedures allows 928 to collect her mind. She replies to 637 with a slow, deep nod.{w}
     She sees 637 grab an aerosol spray bottle. After a beat, 928 puts it together in her head.{w}
-    It must be the patch spray. She recalls being trained to use it to cauterize–
+    It must be the patch spray. She recalls being trained to use it to cauterize–"""
+    play sound1 "sfx/sear.mp3"
+    a """The deafening hiss of the spray breaks 928's train of thought. Her chest is ice-cold."""
+    
+    a "In seconds, it heats up. {w}Hotter. And hotter. {w}It burns. "
+    play sound1 "sfx/stressboom.mp3"
+    extend "Then it's an inferno."
 
-    The deafening hiss of the spray breaks 928's train of thought. Her chest is ice-cold. #TODO sear
-
-    In seconds, it heats up. {w}Hotter. And hotter. {w}It burns. Then it's an inferno. #TODO stressboom
-
-    928 opens her mouth without making a sound.{w} She sees white. Her thoughts are cut."""
+    a "928 opens her mouth without making a sound.{w} She sees white. Her thoughts are cut."
     play music1 "howivemissedintroslowed.mp3"
     a "There is only fire."
     window hide
