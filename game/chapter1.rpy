@@ -69,9 +69,8 @@ label chapter1:
     extend "The cargo door rises, reducing the outside light to a sliver before it locks shut." #TODO helidoor
     
     show 637 left sneer with slowdissolve
-    play sound1 "sfx/heli_takeoff.mp3"
-    "The other machine, still laying on the floor, looks up towards 928." #TODO heli_takeoff
-
+    
+    "The other machine, still laying on the floor, looks up towards 928."
 
     show 637 wink
     s "Hey, new girl. What was {i}their{/i} fuckin' problem, huh?"
@@ -81,6 +80,7 @@ label chapter1:
     show 928 dull
     "928 gives her an empty stare."
     show 637 surprise
+    play sound1 "sfx/heli_takeoff.mp3"
     "The engine jolts to life, nearly knocking 637 over, but she catches herself on the crate's straps." #TODO maybe move heli_takeoff here
 
     show 928 open
