@@ -6,7 +6,7 @@ label chapter2:
     scene bg surface with slowfade
 
     
-    a """The helicraft comes to a landing on a strip of asphalt.{w}
+    a """The helicraft comes to a landing on a strip of asphalt.{w} #TODO helidoor
     928 and 637 begin their final equipment checks in silence. Hatches, panels, internal machinery, all clear.
 
     The door opens and frigid air rushes into the cargo hold. The two soldiers stand outside, helmets obscuring their features.{w}
@@ -50,8 +50,8 @@ label chapter2:
     show 928 process
     "For a moment, 928's eyes go blank."
     show 928 process
-    nl "Ping sent..." #TODO beep
-    nl "Ping received. Zero percent packet loss."
+    nl "Ping sent..." #TODO canaryping
+    nl "Ping received. Zero percent packet loss." #TODO canarypingaffirm
     nl "Mapping protocol active. Uploads to be committed at intervals permitting EM-storm clearance."
     show 928 shut
     show soldiera open
@@ -83,7 +83,7 @@ label chapter2:
     show soldierb grin
     "The less talkative soldier steps towards them and{nw}"
     show 928 grit
-    extend " shoves 928 hard with their palm." #TODO thump
+    extend " shoves 928 hard with their palm." #TODO punch1
     show soldierb shut
     show 928 bummed
     "She staggers forward."
@@ -258,19 +258,19 @@ label chapter2:
     The power is out, and, unlike the ground-floor, there aren't any windows to provide illumination.{w}
     637 strides ahead of 928, right towards the metal barrier rails."""
 
-    a "928 notices the rails sink with a creak. She shouts."#TODO creak
+    a "928 notices the rails sink with a creak. She shouts." #TODO metalcreak
 
     a "\"63–\""
     nvl clear#TODO do we need this?
 
-    a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor."
+    a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor." #TODO factorycreakpop
     
     show gray overlay with dissolve
 
     a "928 and 637 plunge to the ground beneath."
     nvl clear
 
-    "{i}CRASH!{/i}" #TODO crash
+    "{i}CRASH!{/i}" #TODO falldownfactory
 
     s "AUGH!"
 
@@ -419,7 +419,7 @@ label chapter2:
     n pissed "C-Commander Vogan provides helpful critiques of my efficiency and issues me back into the field–"
     n shock "Ah!"
     show 928 yelp
-    "Her partner shoves her. 928 lands on the control panel.{w} The abrupt force leaves her stunned. 637 leans in close."#TODO thump
+    "Her partner shoves her. 928 lands on the control panel.{w} The abrupt force leaves her stunned. 637 leans in close."#TODO fall
     window hide
 
     show cg power with dissolve
@@ -455,7 +455,7 @@ label chapter2:
     show 637 left surprise
     with dissolve
 
-    "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. " #TODO click
+    "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. " #TODO factorystartup
     extend "Outside the booth, the whir of revived motors makes clear that the power has returned. "
     show 928 -blush
     show 637 squint

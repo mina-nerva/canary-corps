@@ -43,7 +43,7 @@ label chapter4:
     n shock "WHAT ARE YOU DOING?!"
     show 928 alert
 
-    "637 launches off the platform near the edge. {w}928 gapes at her airborne figure as it sails through the air towards the catwalk, finally landing with a smooth roll."#TODO thump?
+    "637 launches off the platform near the edge. {w}928 gapes at her airborne figure as it sails through the air towards the catwalk, finally landing with a smooth roll."#TODO fall
     "637 gets up and shakes herself off. {w}She holds her hands like a megaphone towards 928."
     
     s "Huh?! What'd you say?"
@@ -83,7 +83,7 @@ label chapter4:
     show graynvl
     with dissolve
     a "928 flails her arms as she hurtles through the air. The fear fluttering through her slows the moment down to an excruciating length."
-    a "She barely registers the platform appearing beneath her, securing her safety. {w}Her feet smack onto the catwalk with a rattle. {w}Brought to her senses, 928 attempts to redirect the impact of the landing with a roll, like 637, but she's a touch too late."#TODO thump!
+    a "She barely registers the platform appearing beneath her, securing her safety. {w}Her feet smack onto the catwalk with a rattle. {w}Brought to her senses, 928 attempts to redirect the impact of the landing with a roll, like 637, but she's a touch too late."#TODO fall
     sa "Her legs buckle, and she tilts forward."
     hide graynvl
     show 928 right yelp damage1
@@ -200,7 +200,7 @@ label chapter4:
 
     show 637 smile
     show 928 hshut
-    "She readies her weapon arm, and the gun folds out and into position. {w}Her eyes narrow, tracking the drone's linear path.{w} She fires." #TODO bang!
+    "She readies her weapon arm, and the gun folds out and into position. {w}Her eyes narrow, tracking the drone's linear path.{w} She fires." #TODO canarygunecho
     "The body of the drone sparks, and crumples. {w}It drops into the glowing oblivion, propellers still whirring."
     show 928 smile
     show 637 neutral
@@ -227,7 +227,7 @@ label chapter4:
 
     show 928 shut
     show 637 surprise
-    "A bang interrupts her, and the machine she was eyeing bursts open and scatters. {w}637 looks at 928, who lowers her arm, billowing smoke. {w}928 is turned away from her."#TODO bang!
+    "A bang interrupts her, and the machine she was eyeing bursts open and scatters. {w}637 looks at 928, who lowers her arm, billowing smoke. {w}928 is turned away from her."#TODO canarygunecho
 
     n @ mad "8-4. {w}Let's get going."
     show 637 elated
@@ -240,7 +240,7 @@ label chapter4:
     
     scene bg processing with fade
 
-    "{i}Bang.{/i}"
+    "{i}Bang.{/i}" #TODO canarygunecho
     show 928 right damage1
     n @ open "That's 12-8, my lead."
 
@@ -462,7 +462,7 @@ label chapter4:
     
 
     a "928 and 637 drop through the ceiling of the security booth through the vent."
-    a "They kneel upon landing, weapons at the ready, scanning the unfamiliar room."
+    a "They kneel upon landing, weapons at the ready, scanning the unfamiliar room." #TODO fall
     sa "The vent was intact when they found it. {w}The only way a threat could have entered the room would be an alternate security door. {w}However, both entrances appear untampered."
     show 928 right damage1 hshut
     show 637 left hgrin
@@ -740,7 +740,7 @@ label chapter4:
     nvl clear
 
     n pleadgrin "Nnnh... I want you to punch me in the-"
-    n hurt "AH!"
+    n hurt "AH!" #TODO Punch2
     window hide
     hide 637 left
     hide 928 right

@@ -221,7 +221,7 @@ label chapter5:
     show 928 shut
     s @ open "See what's up with this. I'm gonna keep checking their pockets."
 
-    "637 unfurls the slip of paper and hands it to 928."
+    "637 unfurls the slip of paper and hands it to 928." #TODO paperopen
     "At the top, the word 'SMUGGLERS' is scrawled out and underlined.{w} Below, various worker identification numbers are listed, some crossed out."
     show 928 fluster
     "She glances at the miner's vest. The ID on it matches with one at the bottom of the list. {w}She swallows."
@@ -315,7 +315,7 @@ label chapter5:
     "She gets up, braces herself against the side of the boulder, and shoves with all of her strength. {w}It shifts ever so slightly."
 
     nvl clear
-    "With the combined effort of two mechanical bodies, they shove the boulder off to the side."
+    "With the combined effort of two mechanical bodies, they shove the boulder off to the side." #TODO tunnelopen
     "It sends a shockwave of dust through the room. Through it, a shadow becomes visible on the uncovered wall."
     "A low, square opening reveals itself. The Canaries enter."
     stop music fadeout 5.0
@@ -551,7 +551,7 @@ label chapter5:
     show 637 smile
 
     "928 slots the exposed copper into the back of 637's neck and presses the panel down to hold it in."
-    "There's a shock."
+    "There's a shock." #TODO wireconnect
     show 928 process
     nvl clear
     s process "Nnngh..."
@@ -579,7 +579,7 @@ label chapter5:
     n "lohzxcuoi1asdrfi9asdrf8asdrf8idasrfpiodfsaujdskjrfkuikjp;kdjwrplk;we;lksdf;kjlsdflkjdfsjklsjkdlfjkldrkjlsdfjlksdfljkrfjkslapjklp;rfljkp;kljp;fwskjlrwejmnhurewjmhnugrfjmhnurdwe"
     hide 928 right
     a "928 doesn't understand her own voice. {w}Did she even make a sound?"
-    a "She falls and falls. Something must be wrong. {w}She can't place what it is. {w}Maybe, if she just closes her eyes..."
+    a "She falls and falls. Something must be wrong. {w}She can't place what it is. {w}Maybe, if she just closes her eyes..." #TODO glitchout
     hide graynvl
     scene white with dissolve
     
@@ -656,7 +656,7 @@ label chapter5:
 
     The chiral patterns of their encrypted keys merge, singing each other's song like sheet music as they spin in unison. {w}There is a call and a response."""
 
-    #TODO BEEEP!!!
+    #TODO canaryping
 
     a """Synchronicity.
 

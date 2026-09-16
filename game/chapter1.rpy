@@ -22,7 +22,7 @@ label chapter1:
     n "..."
     "Human voices chatter through the radio."
 
-    Voice "Yep. Yeah. It's on board already."
+    Voice "Yep. Yeah. It's on board already." #TODO radiofuzz
     Voice "The other one's giving us trouble, but we'll have it ready shortly. You know how these things can be."
     Other "Fuckin' Canaries, man."
 
@@ -36,9 +36,9 @@ label chapter1:
 
     "A husky, digital voice laughs."
 
-    Digital "What, am I heavy? Sorry the company gave me such a fat ass– OW!" #TODO thump
+    Digital "What, am I heavy? Sorry the company gave me such a fat ass– OW!" #TODO punch1
 
-    "A heavy thud is punctuated by the hiss and whine of servos opening the back of the helicraft."
+    "A heavy thud is punctuated by the hiss and whine of servos opening the back of the helicraft." #TODO helidoor
     "The scene outside floods in."
     
     show cg boot with dissolve
@@ -55,14 +55,14 @@ label chapter1:
 
     hide cg boot
 
-    "The soldiers haphazardly shove her through the vehicle's door, and she lands face-down with a grunt." #TODO thump
+    "The soldiers haphazardly shove her through the vehicle's door, and she lands face-down with a grunt." #TODO fall
 
     Soldier "Have a nice trip."
 
-    "The soldiers step off the loading platform. The cargo door rises, reducing the outside light to a sliver before it locks shut."
+    "The soldiers step off the loading platform. The cargo door rises, reducing the outside light to a sliver before it locks shut." #TODO helidoor
     
     show 637 left sneer with slowdissolve
-    "The other machine, still laying on the floor, looks up towards 928."
+    "The other machine, still laying on the floor, looks up towards 928." #TODO heli_takeoff
 
 
     show 637 wink
