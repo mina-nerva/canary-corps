@@ -21,11 +21,10 @@ label chapter1:
     "It gazes at a supply crate strapped to the floor."
     n "..."
     "Human voices chatter through the radio."
-
+    play sound1 "sfx/radiofuzz.mp3" noloop
     Voice "Yep. Yeah. It's on board already." #TODO radiofuzz
     Voice "The other one's giving us trouble, but we'll have it ready shortly. You know how these things can be."
     Other "Fuckin' Canaries, man."
-
     "{i}Click.{/i}" #TODO click
     "The chatter cuts."
     show 928 shut
@@ -35,8 +34,11 @@ label chapter1:
     Other "Open up the door. I'll hold it in place."
 
     "A husky, digital voice laughs."
-
-    Digital "What, am I heavy? Sorry the company gave me such a fat ass– OW!" #TODO punch1
+    
+    Digital "What, am I heavy? Sorry the company gave me such a fat ass–{nw}"
+    play sound1 "sfx/punch1.mp3" noloop
+    extend "OW!" #TODO punch1
+    play sound1 "sfx/helidoor_truncated.mp3" noloop
 
     "A heavy thud is punctuated by the hiss and whine of servos opening the back of the helicraft." #TODO helidoor
     "The scene outside floods in."
@@ -55,13 +57,19 @@ label chapter1:
 
     hide cg boot
 
-    "The soldiers haphazardly shove her through the vehicle's door, and she lands face-down with a grunt." #TODO fall
+    "The soldiers haphazardly shove her through the vehicle's door, {nw}"
+    
+    play sound1 "sfx/fall.mp3"
+    extend "and she lands face-down with a grunt." #TODO fall
 
     Soldier "Have a nice trip."
-
-    "The soldiers step off the loading platform. The cargo door rises, reducing the outside light to a sliver before it locks shut." #TODO helidoor
+    
+    "The soldiers step off the loading platform. {nw}"
+    play sound1 "sfx/helidoor_truncated.mp3"
+    extend "The cargo door rises, reducing the outside light to a sliver before it locks shut." #TODO helidoor
     
     show 637 left sneer with slowdissolve
+    play sound1 "sfx/heli_takeoff.mp3"
     "The other machine, still laying on the floor, looks up towards 928." #TODO heli_takeoff
 
 
@@ -73,7 +81,7 @@ label chapter1:
     show 928 dull
     "928 gives her an empty stare."
     show 637 surprise
-    "The engine jolts to life, nearly knocking 637 over, but she catches herself on the crate's straps."
+    "The engine jolts to life, nearly knocking 637 over, but she catches herself on the crate's straps." #TODO maybe move heli_takeoff here
 
     show 928 open
     show 637 smile
