@@ -21,11 +21,11 @@ label chapter1:
     "It gazes at a supply crate strapped to the floor."
     n "..."
     "Human voices chatter through the radio."
-    play sound1 "sfx/radiofuzz.mp3" noloop
-    Voice "Yep. Yeah. It's on board already." #TODO radiofuzz
+    play sound1 "sfx/radiofuzz.mp3"
+    Voice "Yep. Yeah. It's on board already."
     Voice "The other one's giving us trouble, but we'll have it ready shortly. You know how these things can be."
     Other "Fuckin' Canaries, man."
-    "{i}Click.{/i}" #TODO click
+    "{i}Click.{/i}"
     "The chatter cuts."
     show 928 shut
     "Outside the vehicle, a door rattles, boots shuffle, and shouting voices fill the air. The machine labeled “928” looks toward the door, now alert."
@@ -36,11 +36,10 @@ label chapter1:
     "A husky, digital voice laughs."
     
     Digital "What, am I heavy? Sorry the company gave me such a fat ass–{nw}"
-    play sound1 "sfx/punch1.mp3" noloop
-    extend "OW!" #TODO punch1
-    play sound1 "sfx/helidoor_truncated.mp3" noloop
-
-    "A heavy thud is punctuated by the hiss and whine of servos opening the back of the helicraft." #TODO helidoor
+    play sound1 "sfx/punch1.mp3"
+    extend "OW!"
+    play sound1 "sfx/helidoor_truncated.mp3"
+    "A heavy thud is punctuated by the hiss and whine of servos opening the back of the helicraft."
     "The scene outside floods in."
     
     show cg boot with dissolve
@@ -60,13 +59,13 @@ label chapter1:
     "The soldiers haphazardly shove her through the vehicle's door, {nw}"
     
     play sound1 "sfx/fall.mp3"
-    extend "and she lands face-down with a grunt." #TODO fall
+    extend "and she lands face-down with a grunt."
 
     Soldier "Have a nice trip."
     
     "The soldiers step off the loading platform. {nw}"
     play sound1 "sfx/helidoor_truncated.mp3"
-    extend "The cargo door rises, reducing the outside light to a sliver before it locks shut." #TODO helidoor
+    extend "The cargo door rises, reducing the outside light to a sliver before it locks shut."
     
     show 637 left sneer with slowdissolve
     
@@ -81,7 +80,7 @@ label chapter1:
     "928 gives her an empty stare."
     show 637 surprise
     play sound1 "sfx/heli_takeoff.mp3"
-    "The engine jolts to life, nearly knocking 637 over, but she catches herself on the crate's straps." #TODO maybe move heli_takeoff here
+    "The engine jolts to life, nearly knocking 637 over, but she catches herself on the crate's straps."
 
     show 928 open
     show 637 smile

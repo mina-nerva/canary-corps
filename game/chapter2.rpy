@@ -6,10 +6,10 @@ label chapter2:
     scene bg surface with slowfade
 
     
-    a """The helicraft comes to a landing on a strip of asphalt.{w} #TODO helidoor
-    928 and 637 begin their final equipment checks in silence. Hatches, panels, internal machinery, all clear.
-
-    The door opens and frigid air rushes into the cargo hold. The two soldiers stand outside, helmets obscuring their features.{w}
+    a """The helicraft comes to a landing on a strip of asphalt.{w}
+    928 and 637 begin their final equipment checks in silence. Hatches, panels, internal machinery, all clear."""
+    play sound1 "sfx/helidoor_truncated.mp3"
+    a """The door opens and frigid air rushes into the cargo hold. The two soldiers stand outside, helmets obscuring their features.{w}
     637 trails behind 928 exiting the vehicle. The deep voiced soldier speaks as she passes.
 
     \"Hey. No trouble this time.\"
@@ -51,9 +51,9 @@ label chapter2:
     "For a moment, 928's eyes go blank."
     show 928 process
     play sound1 "sfx/canaryping.mp3"
-    nl "Ping sent..." #TODO canaryping
+    nl "Ping sent..."
     play sound1 "sfx/canarypingaffirm.wav"
-    nl "Ping received. Zero percent packet loss." #TODO canarypingaffirm
+    nl "Ping received. Zero percent packet loss."
     nl "Mapping protocol active. Uploads to be committed at intervals permitting EM-storm clearance."
     show 928 shut
     show soldiera open
@@ -86,7 +86,7 @@ label chapter2:
     "The less talkative soldier steps towards them and{nw}"
     show 928 grit
     play sound1 "sfx/punch1.mp3"
-    extend " shoves 928 hard with their palm." #TODO punch1
+    extend " shoves 928 hard with their palm."
     show soldierb shut
     show 928 bummed
     "She staggers forward."
@@ -145,7 +145,7 @@ label chapter2:
     s mad "I don't understand how you can take that shit lying down."
     show 637 squint
 
-    "637 kicks a bolt laying on the ground and sends it flying. It clangs off some nearby mech remains, sending an echo down the empty halls." # clang TODO
+    "637 kicks a bolt laying on the ground and sends it flying. It clangs off some nearby mech remains, sending an echo down the empty halls."
     "928 grimaces at the sound."
 
     n @ mad "I don't understand why you're so consistently abrasive."
@@ -261,19 +261,19 @@ label chapter2:
     The power is out, and, unlike the ground-floor, there aren't any windows to provide illumination.{w}
     637 strides ahead of 928, right towards the metal barrier rails."""
     play sound1 "sfx/metalcreak.wav"
-    a "928 notices the rails sink with a creak. She shouts." #TODO metalcreak
+    a "928 notices the rails sink with a creak. She shouts."
 
     a "\"63–\""
-    nvl clear#TODO do we need this?
+    nvl clear #TODO do we need this?
     play sound1 "sfx/factorycreakpop.mp3"
-    a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor." #TODO factorycreakpop
+    a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor."
     
     show gray overlay with dissolve
 
     a "928 and 637 plunge to the ground beneath."
     nvl clear
     play sound1 "sfx/falldownfactory.mp3"
-    "{i}CRASH!{/i}" #TODO falldownfactory
+    "{i}CRASH!{/i}"
 
     s "AUGH!"
 
@@ -423,7 +423,7 @@ label chapter2:
     n shock "Ah!"
     show 928 yelp
     play sound1 "sfx/fall.mp3"
-    "Her partner shoves her. 928 lands on the control panel.{w} The abrupt force leaves her stunned. 637 leans in close."#TODO fall
+    "Her partner shoves her. 928 lands on the control panel.{w} The abrupt force leaves her stunned. 637 leans in close."
     window hide
 
     show cg power with dissolve
@@ -460,7 +460,7 @@ label chapter2:
     with dissolve
 
     play sound1 "sfx/factorystartup.mp3"
-    "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. " #TODO factorystartup
+    "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. "
     extend "Outside the booth, the whir of revived motors makes clear that the power has returned. "
     show 928 -blush
     show 637 squint
