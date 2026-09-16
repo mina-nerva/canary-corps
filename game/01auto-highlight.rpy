@@ -105,6 +105,7 @@ init -10 python:
     renpy.music.register_channel("sound1", "sound")
     renpy.music.set_volume(0.7, channel="music")
     renpy.music.set_volume(0.7, channel="music1")
+    renpy.music.set_volume(0.5, channel="sound1")
 
     # Easing functions you can use
     def get_ease(t):
