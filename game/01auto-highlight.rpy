@@ -107,6 +107,7 @@ init -10 python:
     renpy.music.set_volume(0.7, channel="music1")
     # dont think this is having any effect
     renpy.music.set_volume(0.5, channel="sound1")
+    preferences.set_mixer("sfx", 0.5)
 
     # Easing functions you can use
     def get_ease(t):
