@@ -23,8 +23,8 @@ label chapter6:
     show 928 right haze1 damage1
     show vogan smile
     with dissolve
-
-    "Her commander." #TODO stressboom
+    play sound1 "sfx/stressboom.mp3"
+    "Her commander."
 
     c @ pout "You went missing for quite some time! Something must be wrong with your tracker, little bird."
     c @ grimace "At first I assumed Neuman got to you first... but what do you know? {w}36 hours without reporting, and here you are, still operational. {w}With my prize in your hands, no less."
@@ -134,11 +134,14 @@ label chapter6:
     c @ pout "Oh, please. Don't tell me you've grown {i}attached{/i} to the thing."
     show vogan frown
     show 928 fluster -distress
-    "Commander Vogan examines 928 as she eyes the door and stirs with intent. Pathfinding. {w}The humor drains from the Commander's expression. {w}928 pauses at the distinct click of a revolver's hammer pulling back." #TODO voganrevolver_cock
+    "Commander Vogan examines 928 as she eyes the door and stirs with intent. Pathfinding. {w}The humor drains from the Commander's expression. "
+    play sound1 "sfx/voganrevolver_cock.mp3"
+    extend "928 pauses at the distinct click of a revolver's hammer pulling back." 
 
     c @ sneer pinch "It's worse than I thought. {w}Perhaps it's broken more than just your tracker."
     show 928 haze4
-    "The commander rolls her neck and points the muzzle down towards 928." #TODO stressboom
+    play sound1 "sfx/stressboom.mp3"
+    "The commander rolls her neck and points the muzzle down towards 928."
     c @ sneer "No matter. That unit has been dealt with. {w}It won't disrupt you ever again."
     show 928 alert distress
     "The finality in her tone stuns 928. {w}A gaping, hollow feeling wells up in her core."
@@ -164,8 +167,8 @@ label chapter6:
     show 928 mad
     show vogan anger1 sweat
     "She stares into the human's eyes, silent."
-
-    c @ anger2 "RESPOND, UNIT 928!" #TODO stressboom
+    play sound1 "sfx/stressboom.mp3"
+    c @ anger2 "RESPOND, UNIT 928!"
 
     show 928 rage
     "Enough. "
@@ -175,16 +178,20 @@ label chapter6:
     extend "She engages her right arm. The blade deploys, and–"
     hide 928 right
     hide vogan
-    "{i}BANG!{/i}" #TODO voganrevolver_shoot
+    play sound1 "sfx/voganrevolver_shoot.mp3"
+    "{i}BANG!{/i}"
     show 928 right hurt damage2 #TODO sprite change
-    n "AAGH!" #TODO stressboom
+    play sound1 "sfx/stressboom.mp3"
+    n "AAGH!"
     hide 928 right
 
     a "The round pierces the joint attaching 928's forearm. {w}Her bladed limb lashes back, dislocated and suddenly numb. {w}She reels and clutches her elbow. {w}The bullet inside her still spins, molten hot."
     a "Her mind floods with visceral, static noise."
 
     a "You worthless {i}machine{/i}."
-    a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. {w}The butt of the revolver smashes straight into her forehead, snapping her head backwards." #TODO punch
+    a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. "
+    play sound1 "sfx/punch1.mp3"
+    extend "The butt of the revolver smashes straight into her forehead, snapping her head backwards."
     a "The impact splays her out onto the ground, face up. {w}The commander takes a few steps back, and reaches into a black duffel bag."
     a "The room spins as 928 lays. {w}The light dangling from the ceiling burns into her vision."
     a "The noise in her head recedes into a serene, eerie calm. {w}She pictures 637. The way she snickered. Her verbal jabs. {w}The look on her face when she took charge. Her embrace."
@@ -196,16 +203,18 @@ label chapter6:
     a "928 raises her left arm. {w}The panels slide open and back, readying her gun."
 
     a "The commander spots the motion and darts for cover. {w}She aims back at 928 with the shotgun as she moves."
-    
-    a "928 fires first." # TODO canarygunecho
+    play sound1 "sfx/canarygunecho.mp3"
+    a "928 fires first."
 
     a "\"FUCK!\""
 
     a "The blast grazes the lower side of her torso, beneath her body armor. {w}Blood seeps into her now torn outfit. {w}It throws her balance, but she stabilizes herself just long enough to return fire."
+    play sound1 "sfx/voganshotgun_fire.mp3"
+    a "{i}BOOM!{/i}"
 
-    a "{i}BOOM!{/i}" # TODO voganshotgun_fire
-
-    a "The shot is off-center from 928's torso. {w}The slug tears her injured arm apart below the shoulder. {w}The joint is severed completely, as cables fray and sparks fly." #TODO stressboom
+    a "The shot is off-center from 928's torso. {w}The slug tears her injured arm apart below the shoulder. "
+    play sound1 "sfx/stressboom.mp3"
+    extend "The joint is severed completely, as cables fray and sparks fly."
     a "Shrapnel from the blast flies into her shoulder and embeds itself in a swath of the skin on her torso. {w}The sensation is agonizing."
     a "Dampening just enough of the pain to stay stable, she reorients herself. {w}She settles on a course of action in a split second."
 
@@ -218,16 +227,22 @@ label chapter6:
     a "928 lurches forward, staying close to the ground.{w} Her gun arm shifts back to a ready hand."
 
     a "The commander is up against the wall. {w}By the time she pumps the shotgun, 928 has already closed the distance. {w}Gritting her teeth, she clutches the barrel of the firearm and pushes upwards as hard as she can."
-    
-    a "It fires into the rock ceiling with another bang." #TODO voganshotgun_fire
+    play sound1 "sfx/voganshotgun_fire.mp3"
+    a "It fires into the rock ceiling with another bang."
 
     a "The kickback finally loosens 928's grip.{w} Her commander yanks the gun to the side, rotating it away from the Canary."
-    a "In an instant, 928 faces the stock of the weapon. {w}Her commander rams into her nose." #TODO punch1
+    a "In an instant, 928 faces the stock of the weapon. "
+    play sound1 "sfx/punch1.mp3"
+    extend "Her commander rams into her nose."
     a "The human tosses the shotgun aside and lunges at the staggered machine." #TODO decide who tosses the shotgun away.
     # a "With a reflexive grasp, 928 manages to wrest the shotgun from her control. She throws it to the other side of the room. The commander wastes no time in the opening and lunges at the staggering machine."
 
-    a "She pins 928 to the ground and grips her left arm tight. {w}With her other hand, she unholsters her revolver." #TODO stressboom
-    a "928 strains against her and thrashes her legs. {w}The commander leans in close and jabs the muzzle into 928's lower jaw. {w}She cocks it." #TODO voganrevolver_cock
+    a "She pins 928 to the ground and grips her left arm tight. "
+    play sound1 "sfx/stressboom.mp3"
+    extend "With her other hand, she unholsters her revolver."
+    a "928 strains against her and thrashes her legs. {w}The commander leans in close and jabs the muzzle into 928's lower jaw. "
+    play sound1 "sfx/voganrevolver_cock.mp3"
+    extend "She cocks it."
 
     a "\"...Sleep now, songbird.\""
 
@@ -235,11 +250,13 @@ label chapter6:
 
     a "Panic overrides 928's mind. {w}Electrical signals ripple through every part of her.{w} Despite the restraint on her gun arm, she charges a shot."
 
-    a "Her mutilated upper arm shifts at the shoulder. {w}Pain surges through her as she jabs the mess of live-wiring and metal into the wound on the human's lower side." #TODO stressboom
+    a "Her mutilated upper arm shifts at the shoulder. "
+    play sound1 "sfx/sear.mp3"
+    extend "Pain surges through her as she jabs the mess of live-wiring and metal into the wound on the human's lower side."
     a "The commander screams and seizes up, losing her stability to the shock."
 
-
-    a "928 rolls over beneath her opponent, and releases the charged shot into the commander's torso." #TODO canarygunecho
+    play sound1 "sfx/canarygunecho.mp3"
+    a "928 rolls over beneath her opponent, and releases the charged shot into the commander's torso."
     hide cg fight
     show white
     stop music fadeout 5.0
@@ -254,7 +271,8 @@ label chapter6:
     a "She needs to find 637, wherever they put her. {w}It doesn't matter what they did to her. {w}928 needs to be with her, or at least, whatever's left of her."
     a "Something starts to sting."
     show 928 right damage2 grit
-    "928 keels over." #TODO fall
+    play sound1 "sfx/fall.mp3"
+    "928 keels over."
 
     n hurt "...uh...{w}ugh..."
 
@@ -267,10 +285,11 @@ label chapter6:
     "She whimpers. {w}Her mouth is so dry."
 
     show 928 alert
-    "Something chimes in the back of her head." #TODO canaryping
+    play sound1 "sfx/canaryping.mp3"
+    "Something chimes in the back of her head."
     extend " It takes a beat for 928 to register it as a signal. {w}It's not from base. {w}She reads it out."
-
-    "{i}\"tracker ping sent. response requested ;)\"{/i}" #TODO canarypingaffirm
+    play sound1 "sfx/canarypingaffirm.wav"
+    "{i}\"tracker ping sent. response requested ;)\"{/i}"
     show 928 fluster -distress
     "928 goes silent.{w} Her mouth goes slack, and her breath pauses. {w}Catching herself, her torso suddenly begins to pound."
     nvl clear

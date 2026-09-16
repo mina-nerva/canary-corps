@@ -220,8 +220,8 @@ label chapter5:
     "637 spots a crumpled piece of paper wedged in the smaller one's back pocket.{w} She grabs it and turns to 928."
     show 928 shut
     s @ open "See what's up with this. I'm gonna keep checking their pockets."
-
-    "637 unfurls the slip of paper and hands it to 928." #TODO paperopen
+    play sound1 "sfx/paperopen.mp3"
+    "637 unfurls the slip of paper and hands it to 928." 
     "At the top, the word 'SMUGGLERS' is scrawled out and underlined.{w} Below, various worker identification numbers are listed, some crossed out."
     show 928 fluster
     "She glances at the miner's vest. The ID on it matches with one at the bottom of the list. {w}She swallows."
@@ -315,7 +315,8 @@ label chapter5:
     "She gets up, braces herself against the side of the boulder, and shoves with all of her strength. {w}It shifts ever so slightly."
 
     nvl clear
-    "With the combined effort of two mechanical bodies, they shove the boulder off to the side." #TODO tunnelopen
+    play sound1 "sfx/tunnelopen.mp3"
+    "With the combined effort of two mechanical bodies, they shove the boulder off to the side."
     "It sends a shockwave of dust through the room. Through it, a shadow becomes visible on the uncovered wall."
     "A low, square opening reveals itself. The Canaries enter."
     stop music fadeout 5.0
@@ -551,7 +552,8 @@ label chapter5:
     show 637 smile
 
     "928 slots the exposed copper into the back of 637's neck and presses the panel down to hold it in."
-    "There's a shock." #TODO wireconnect
+    play sound1 "sfx/wireconnect.mp3"
+    "There's a shock."
     show 928 process
     nvl clear
     s process "Nnngh..."
@@ -579,7 +581,8 @@ label chapter5:
     n "lohzxcuoi1asdrfi9asdrf8asdrf8idasrfpiodfsaujdskjrfkuikjp;kdjwrplk;we;lksdf;kjlsdflkjdfsjklsjkdlfjkldrkjlsdfjlksdfljkrfjkslapjklp;rfljkp;kljp;fwskjlrwejmnhurewjmhnugrfjmhnurdwe"
     hide 928 right
     a "928 doesn't understand her own voice. {w}Did she even make a sound?"
-    a "She falls and falls. Something must be wrong. {w}She can't place what it is. {w}Maybe, if she just closes her eyes..." #TODO glitchout
+    play sound1 "sfx/glitchout.mp3"
+    a "She falls and falls. Something must be wrong. {w}She can't place what it is. {w}Maybe, if she just closes her eyes..."
     hide graynvl
     scene white with dissolve
     
@@ -657,6 +660,7 @@ label chapter5:
     The chiral patterns of their encrypted keys merge, singing each other's song like sheet music as they spin in unison. {w}There is a call and a response."""
 
     #TODO canaryping
+    play sound1 "sfx/canaryping.mp3"
 
     a """Synchronicity.
 
