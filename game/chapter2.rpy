@@ -50,7 +50,9 @@ label chapter2:
     show 928 process
     "For a moment, 928's eyes go blank."
     show 928 process
+    play sound1 "sfx/canaryping.mp3"
     nl "Ping sent..." #TODO canaryping
+    play sound1 "sfx/canarypingaffirm.wav"
     nl "Ping received. Zero percent packet loss." #TODO canarypingaffirm
     nl "Mapping protocol active. Uploads to be committed at intervals permitting EM-storm clearance."
     show 928 shut
@@ -83,6 +85,7 @@ label chapter2:
     show soldierb grin
     "The less talkative soldier steps towards them and{nw}"
     show 928 grit
+    play sound1 "sfx/punch1.mp3"
     extend " shoves 928 hard with their palm." #TODO punch1
     show soldierb shut
     show 928 bummed
@@ -257,19 +260,19 @@ label chapter2:
 
     The power is out, and, unlike the ground-floor, there aren't any windows to provide illumination.{w}
     637 strides ahead of 928, right towards the metal barrier rails."""
-
+    play sound1 "sfx/metalcreak.wav"
     a "928 notices the rails sink with a creak. She shouts." #TODO metalcreak
 
     a "\"63–\""
     nvl clear#TODO do we need this?
-
+    play sound1 "sfx/factorycreakpop.mp3"
     a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor." #TODO factorycreakpop
     
     show gray overlay with dissolve
 
     a "928 and 637 plunge to the ground beneath."
     nvl clear
-
+    play sound1 "sfx/falldownfactory.mp3"
     "{i}CRASH!{/i}" #TODO falldownfactory
 
     s "AUGH!"
@@ -419,6 +422,7 @@ label chapter2:
     n pissed "C-Commander Vogan provides helpful critiques of my efficiency and issues me back into the field–"
     n shock "Ah!"
     show 928 yelp
+    play sound1 "sfx/fall.mp3"
     "Her partner shoves her. 928 lands on the control panel.{w} The abrupt force leaves her stunned. 637 leans in close."#TODO fall
     window hide
 
@@ -455,6 +459,7 @@ label chapter2:
     show 637 left surprise
     with dissolve
 
+    play sound1 "sfx/factorystartup.mp3"
     "With an audible {i}click{/i}, sterile strip lights switch on and wash out the red hue of the backup light.{w} A siren sounds in the distance. " #TODO factorystartup
     extend "Outside the booth, the whir of revived motors makes clear that the power has returned. "
     show 928 -blush
