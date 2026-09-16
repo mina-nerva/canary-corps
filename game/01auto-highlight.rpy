@@ -102,6 +102,7 @@ init -10 python:
     border_enabled = True
 
     renpy.music.register_channel("music1", "music")
+    renpy.music.register_channel("sound1", "sound")
     renpy.music.set_volume(0.7, channel="music")
     renpy.music.set_volume(0.7, channel="music1")
 
