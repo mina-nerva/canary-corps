@@ -259,6 +259,4 @@ label chapter1:
 
     "END TRANSMISSION 1"
 
-    $ renpy.pause()
-
     jump chapter2

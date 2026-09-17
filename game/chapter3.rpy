@@ -675,6 +675,6 @@ label chapter3:
 
     "END TRANSMISSION 3"
     nvl clear
-    $ renpy.pause()
+
 
     jump chapter4

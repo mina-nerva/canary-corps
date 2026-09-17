@@ -789,6 +789,5 @@ label chapter4:
     show black with slowdissolve
 
     "END TRANSMISSION 4"
-    $ renpy.pause()
 
     jump chapter5

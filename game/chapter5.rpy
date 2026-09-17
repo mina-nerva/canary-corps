@@ -677,6 +677,5 @@ label chapter5:
     "END TRANSMISSION 5"
     nvl clear
     $ border_enabled = True
-    $ renpy.pause()
 
     jump chapter6
