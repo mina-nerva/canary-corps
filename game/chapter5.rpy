@@ -553,10 +553,12 @@ label chapter5:
 
     "928 slots the exposed copper into the back of 637's neck and presses the panel down to hold it in."
     play sound1 "sfx/wireconnect.mp3"
-    "There's a shock."
     show 928 process
+    show 637 process
+    "There's a shock."
+    
     nvl clear
-    s process "Nnngh..."
+    s "Nnngh..."
 
     hide 928 right
     hide 637 left
