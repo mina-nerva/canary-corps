@@ -99,7 +99,7 @@ label chapter6:
     "It takes all her strength to fight the gravity of compliance. {w}To veer away from the mental pathways carved into her for as long as she can remember. {w}The urge to respond with an affirmative is only staved off by the thought of her absent partner."
 
     c anger1 "Respond, unit 928. Do not waste my time."
-
+    play sound1 "sfx/stressboom.mp3"
     "A muffled explosion shakes the room. {w}Commander's head swivels toward the door in surprise. 928 mutters."
     show vogan frown -sweat
     n @ haze3 "...{w}w-where is she...?"
@@ -301,59 +301,58 @@ label chapter6:
 
     a "Exiting the tunnels that echo with the sound of combat, the sleeping quarters are dark. {w}928 enters with her visor down, cautious.{w} Not far from the bodies, a humanoid figure sits slouched."
     a "Its arms are stretched upwards, wrists tied to a ladder on the side of the bunks.{w} It speaks in a husky, digital voice."
-    window hide
-    show cg rescue temp with dissolve
-    $ renpy.pause()
 
-    s "Heyyy... {w}{i}COUGH{/i}{w} ...You the stupid fuck from the heli again? {w}Thought I already spilled the details about my relationship with your mother."
+    sixvoicea "\"Heyyy... {w}{i}COUGH{/i}{w} ...You the stupid fuck from the heli again? {w}Thought I already spilled the details about my relationship with your mother.\""
 
-    "New cuts and scratches overlap the old scars on her torso. {w}Dents line the metal on her limbs.{w} Her left eye remains swollen shut, and her nose is crooked."
+    a "New cuts and scratches overlap the old scars on her torso. {w}Dents line the metal on her limbs.{w} Her left eye remains swollen shut, and her nose is crooked."
 
-    n "..."
     play music "angelsslowedB.mp3"
 
-    "637's head hangs low, but her eyes look up as a pair of robotic legs like her own step into view."
+    a "637's head hangs low, but her eyes look up as a pair of robotic legs like her own step into view."
 
-    s "Wait... are-"
-
+    sixvoicea "\"Wait... are-\""
+    show cg rescue with dissolve
+    $ renpy.pause()
 
     "928 drops her combat composure and hurtles over to her partner. {w}She goes in for a kiss without slowing down. Their teeth collide."
 
-    show 928 right damage2 alert
-    show 637 left hurt damage
+    # show 928 right damage2 alert
+    # show 637 left hurt damage
 
     s "Mmmph... Ow!"
-    show 928 plead
-    show 637 elated
+    # show 928 plead
+    # show 637 elated
     "They both recoil for a moment, before catching each other's eyes. {w}Wordlessly, they go for another kiss."
-    show 928 smile
+    # show 928 smile
     s scared "928... Thank god you're okay!!!"
-    show 637 bummed
+    # show 637 bummed
 
     n awkward "I'm alright... Haha... {w}Just glad you're... Alive..."
 
-    show 637 sadless
+    # show 637 sadless
 
     "637 looks her in the eyes with apologetic sincerity."
 
     s sad "I'm glad {i}you're{/i} alive!!! {w}When I tried to get you up, you were still out cold, so I moved the stellisite outside the cache, hoping they'd quit looking for us and..."
     s hurtless "...Well basically, Vogan's a bitch."
 
-    show 637 squint
+    # show 637 squint
     n @ open "Yeah... {w}about that..."
     n awkward "I neutralized her."
 
     s surprise "Seriously?{w} Holy shit."
 
-    show 637 elated blush
-    show 928 plead blush
+    # show 637 elated blush
+    # show 928 plead blush
     "637 blinks. {w}928 moves to start removing the bindings, but before she can lift herself up, her partner's lips press into hers, diverting her from the task. 928 shuts her eyes, and runs her hand down 637's back."
     "Eventually, they separate. {w}637 lets out a breathy whisper."
 
     s drool "...You're so cool."
 
-    show 928 grit -blush
-    show 637 -blush sneer
+    hide cg rescue with dissolve
+
+    show 928 right grit damage2 -blush
+    show 637 left -blush sneer damage
     "928 finally stands up to free her partner, but is reminded of the state of her body.{w} Weak. Damaged. Sparking from the shoulder."
     show 928 bummed
     "She swaps to her gun, and fires a shot at the chain. {w}It breaks open, scattering into links of red hot metal. {w}In the flash of light, 637 sees the damage for the first time."

@@ -17,6 +17,8 @@ define cq = Character("???", color="#d42929", image="vogan", namebox_style="name
 
 define a = Character(kind = nvl, callback = name_callback, cb_name = None)
 define narrator = Character(callback = name_callback, cb_name = None)
+define sixvoicea = Character(kind = nvl, callback = name_callback, cb_name = "637")
+define ninevoicea = Character(kind = nvl, callback = name_callback, cb_name = "928")
 
 layeredimage 928 right:
     at sprite_highlight('928')
