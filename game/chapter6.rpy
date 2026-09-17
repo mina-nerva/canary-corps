@@ -399,11 +399,13 @@ label chapter6:
 
     $ renpy.pause()
 
-    "we dont have credits yet"
-    "but mina and lena directed and wrote this"
-    "lena did all the art"
-    "mina did all the code"
-    "yuki did the music"
-    "jem did 2 cgs"
-    "thank u for everyone"
+    show credits1
+    with dissolve
+    $ renpy.pause()
+    hide credits1
+    show credits2
+    with dissolve
+    $ renpy.pause()
+    show black with slowdissolve
+    $ renpy.pause()
     return
