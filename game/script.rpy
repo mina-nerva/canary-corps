@@ -19,6 +19,7 @@ define a = Character(kind = nvl, callback = name_callback, cb_name = None)
 define narrator = Character(callback = name_callback, cb_name = None)
 define sixvoicea = Character(kind = nvl, callback = name_callback, cb_name = "637")
 define ninevoicea = Character(kind = nvl, callback = name_callback, cb_name = "928")
+define cvoicea = Character(kind = nvl, callback = name_callback, cb_name = "vogan")
 
 layeredimage 928 right:
     at sprite_highlight('928')

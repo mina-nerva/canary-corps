@@ -265,7 +265,7 @@ label chapter2:
     play sound1 "sfx/metalcreak.wav"
     a "928 notices the rails sink with a creak. She shouts."
 
-    a "\"63–\""
+    ninevoicea "\"63–\""
     nvl clear #TODO do we need this?
     play sound1 "sfx/factorycreakpop.mp3"
     a "928 fails to finish shouting her partner's identifier.{w} The overhang collapses under the Canaries' weight and swings perpendicular to the rest of the floor."

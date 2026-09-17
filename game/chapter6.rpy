@@ -7,14 +7,14 @@ label chapter6:
     scene bg fight
     play music "minesong2.mp3"
 
-    a "\"Wake up, unit 928.\""
+    cvoicea "\"Wake up, unit 928.\""
     a "Searing light floods 928's head as she flits open her eyes."
     a "Ears ringing, sight blurred, she attempts to make sense of her surroundings."
     a "She hears muffled, distant bangs.{w} She's sitting on a chair. {w}Blinking regulates the light, but not by much."
     a "There's something tall standing over her, but the shape isn't coming together."
 
     
-    a "\"There you are.\""
+    cvoicea "\"There you are.\""
 
     a "That voice."
 
@@ -206,7 +206,7 @@ label chapter6:
     play sound1 "sfx/canarygunecho.mp3"
     a "928 fires first."
 
-    a "\"FUCK!\""
+    cvoicea "\"FUCK!\""
 
     a "The blast grazes the lower side of her torso, beneath her body armor. {w}Blood seeps into her now torn outfit. {w}It throws her balance, but she stabilizes herself just long enough to return fire."
     play sound1 "sfx/voganshotgun_fire.mp3"
@@ -244,7 +244,7 @@ label chapter6:
     play sound1 "sfx/voganrevolver_cock.mp3"
     extend "She cocks it."
 
-    a "\"...Sleep now, songbird.\""
+    cvoicea "\"...Sleep now, songbird.\""
 
     a "Her voice is unsteady, caught between tired breaths."
 

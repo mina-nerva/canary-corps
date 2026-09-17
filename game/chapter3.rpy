@@ -360,89 +360,89 @@ label chapter3:
     window show
     show graynvl
 
-    a "\"Fuck, you're–\""
+    sixvoicea "\"Fuck, you're–\""
     a "928 grabs 637 by the collar and collides her forehead with 637's.{w} It stuns 637 as 928 begins biting at the synthetic flesh next to her mouth."
     a "928 presses their lips against each other. 637's eyelids sink."
     a "The kiss is dry."
     a "637 tries to match the force 928 is exerting, then pauses, grabs 928's head and frees herself. She speaks cautiously."
 
-    a "\"What the fuck?\""
+    sixvoicea "\"What the fuck?\""
     
     a "928 groans and slumps against the wall. There's a long black mark on her chest."
     extend " 637 leans in to examine the damage."
     a "The skin surrounding the jagged gash frays outward. Blue coolant bubbles out onto her abdomen."
 
-    a "\"Shit, you're wounded.\""
+    sixvoicea "\"Shit, you're wounded.\""
 
     a "637 glances at 928's limp head. {w}Her pupils are fluttering and unfocused, the corners of her eyes moist with fluid."
     a "Her mouth hangs open still, but her jaw starts to tense and twitch."
-    a "637 reaches for a compartment on her back containing her repair kit.{w} 928 sputters fragments of sentences."
-    hide graynvl
+    a "637 reaches for a compartment on her back containing her repair kit."
 
-    s "Hey. {w}Stay with me here, okay?"
-    nvl clear
-    n "...m-missionn...{w}can't...{w}I...{w}c-c-commander...{w}f-f-format..." 
-    show graynvl
+    sixvoicea "\"Hey. {w}Stay with me here, okay?\""
+    a "928 sputters fragments of sentences."
+
+    ninevoicea "\"...m-missionn...{w}can't...{w}I...{w}c-c-commander...{w}f-f-format...\"" 
+
     a """637 pauses, losing focus as she's readying the materials.{w}
     She recalls how 928 handled the fall from that overhang on the surface, then looks at her currently distorted face.{w}
-    It clicks. She must've shut off the dampeners.
+    It clicks. She must've shut off the dampeners."""
 
-    \"You're in shock.\"
+    sixvoicea "\"You're in shock.\""
 
-    At her words, 928 manages a couple gazes at 637, but her eyes remain wild and flitting.{w}
+    a """At her words, 928 manages a couple gazes at 637, but her eyes remain wild and flitting.{w}
     Even if 637 asked her to flip them back on, she's in no state to make sense of the request.{w}
-    She mutters, delirious.
+    She mutters, delirious."""
 
-    \"...I...I...{w}wh-wh-wha–\"
+    ninevoicea "\"...I...I...{w}wh-wh-wha–\""
 
-    \"Shhh.{w} I got you. It's alright.\""""
+    sixvoicea "\"Shhh.{w} I got you. It's alright.\""
     
 
     a """637 places the supplies for the impromptu surgery on the ground.{w}
     She takes 928 by the shoulders and positions her face-up on her lap.
 
     928 whimpers at the movement, and starts to concentrate on the sight of 637's face above her.{w}
-    637 closes the distance and kisses 928's forehead. This isn't going to be easy.
+    637 closes the distance and kisses 928's forehead. This isn't going to be easy."""
 
-    \"I need you to hold still for me, okay?\"
+    sixvoicea "\"I need you to hold still for me, okay?\""
 
-    928 exhales with a low grunt.{w}
+    a """928 exhales with a low grunt.{w}
     637 grabs a small knife, and raises it perpendicular to 928's wound."""
     play sound1 "sfx/rip.mp3"
     a "She carefully slices toward the cut. 928 yelps."
 
     a """The synthetic fiber gives way as 637 leans in to assess the intensity of the damage.{w}
-    She pulls back with a relieved sigh.
+    She pulls back with a relieved sigh."""
 
-    \"It's shallow. You're lucky. Not {i}too{/i} much internal damage.{w} I am going to need to seal a few things up, though.\"
+    sixvoicea "\"It's shallow. You're lucky. Not {i}too{/i} much internal damage.{w} I am going to need to seal a few things up, though.\""
 
-    She takes a small rubber cylinder, and pulls off a small strip from inside it, exposing an adhesive layer. 
+    a """She takes a small rubber cylinder, and pulls off a small strip from inside it, exposing an adhesive layer. 
 
     Inside 928's chest, a coolant line has come loose. She's starting to overheat.{w}
     Her pain sensors won't calm down until the line and the tear above it are sealed.
 
-    Leaning in over 928's chest, she takes a deep breath.
+    Leaning in over 928's chest, she takes a deep breath."""
 
-    \"Brace.\"
+    sixvoicea "\"Brace.\""
 
-    637 reaches inside, aiming for the deeper half of the coolant line, which has tumbled lower into her internal wiring and mechanics.{w}
-    She pulls it up, and gives it a light tug to get it back into place.
+    a """637 reaches inside, aiming for the deeper half of the coolant line, which has tumbled lower into her internal wiring and mechanics.{w}
+    She pulls it up, and gives it a light tug to get it back into place."""
 
-    \"AUGH!\""""
+    ninevoicea "\"AUGH!\""
     play sound1 "sfx/stressboom.mp3"
     a """928's addled neural system screams danger.{w}
     She thrashes her limbs.{w}
-    637 takes her free hand and pins 928 by the shoulder.
+    637 takes her free hand and pins 928 by the shoulder."""
 
-    \"Stop moving.{w} I need you to endure it for a little longer.\"
+    sixvoicea "\"Stop moving.{w} I need you to endure it for a little longer.\""
 
-    928 stops moving.{w}
+    a """928 stops moving.{w}
     Her extremities are still shaking, but her torso is steady.{w}
-    The effort causes her to moan.
+    The effort causes her to moan."""
 
-    \"Here we go.\"
+    sixvoicea "\"Here we go.\""
 
-    637 resumes the operation, grabbing the other loose end.{w}
+    a """637 resumes the operation, grabbing the other loose end.{w}
     She fits it to the repaired side of the coolant line, sealing it tight.{w} 
     928 shudders, doing her best to keep still.
 
@@ -451,15 +451,15 @@ label chapter3:
     play sound1 "sfx/rubber.mp3"
     a """She presses it together to the inside of 928's skin, removing her hand before finishing.
 
-    928 squeaks.
+    928 squeaks."""
 
-    \"That's it. Good girl.\"
+    sixvoicea "\"That's it. Good girl.\""
 
-    928's vision focuses up at 637. Her partner spans her mind.
+    a "928's vision focuses up at 637. Her partner spans her mind."
 
-    \"Just one more thing and you'll be all fixed. Understand?\"
+    sixvoicea "\"Just one more thing and you'll be all fixed. Understand?\""
 
-    The pause in procedures allows 928 to collect her mind. She replies to 637 with a slow, deep nod.{w}
+    a """The pause in procedures allows 928 to collect her mind. She replies to 637 with a slow, deep nod.{w}
     She sees 637 grab an aerosol spray bottle. After a beat, 928 puts it together in her head.{w}
     It must be the patch spray. She recalls being trained to use it to cauterize–"""
     play sound1 "sfx/sear.mp3"

@@ -759,17 +759,17 @@ label chapter4:
     a "The blow radiates from her lower torso, searing and hollow. {w}Her throat tightens. {w}Panic blots her mind as she gasps for air she doesn't need."
     a "She nearly collapses, but 637 quickly moves to help stabilize her, easing her down until she settles on her knees. {w}Grabbing her by the headgear, 637 brings her partner's head close to her lower torso. {w}She strokes 928's hair."
 
-    a "\"God, you're cute down there. That position looks good on you... {w}How's it feeling?\""
+    sixvoicea "\"God, you're cute down there. That position looks good on you... {w}How's it feeling?\""
 
     a "The phantom choking feeling subsides, but the words in 928's head are all jumbled. {w}Still, she attempts an answer."
 
-    a "\"...Mmmnn...{w}Hahhhah...\""
+    ninevoicea "\"...Mmmnn...{w}Hahhhah...\""
 
     a "637 sees a wide, crooked smile forming on 928's face."
 
-    a "\"...Good...hhhnnn...\""
+    ninevoicea "\"...Good...hhhnnn...\""
 
-    a "\"Atta girl~\""
+    sixvoicea "\"Atta girl~\""
 
     a "She kisses her on the lips, and the two of them tumble down onto the floor."
 
