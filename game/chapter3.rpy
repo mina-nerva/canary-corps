@@ -38,7 +38,7 @@ label chapter3:
     She removes one black wire from a circuit board in the panel, and inserts its exposed end into a different spot on the circuit.
 
     The lights in the elevator flicker."""
-    play sound1 "sfx/canarypingaffirm.wav"
+    play sound1 "sfx/canarypingaffirm.wav" volume 0.5
     extend " Playing an approving tone, the display on the controls glows green."
     window hide
 
@@ -254,11 +254,11 @@ label chapter3:
     with dissolve
     
     a "No time.{w}"
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     extend " She blocks its protruding jaw with her weapon, its teeth sparking and scraping against it."
     show 928 hshut
     a "It's a Laskey security drone. 928 springs into action."
-    play sound1 "sfx/cutmetal.mp3"
+    play sound1 "sfx/cutmetal.mp3" volume 0.5
     a "She dashes toward 637 and {nw}"
     
     extend "stabs the attacker with her blade."
@@ -301,7 +301,7 @@ label chapter3:
     with dissolve
     show dog with dissolve
     a "The onslaught continues. 928 moves with inhuman speed. "
-    play sound1 "sfx/cutmetal.mp3"
+    play sound1 "sfx/cutmetal.mp3" volume 0.5
     extend "She swings at one drone jumping at her, slicing it through the torso."
     play sound1 "sfx/canarygunecho.mp3"
     a "637 shoots one in the head and follows it up, impaling it through the back with her blade."
@@ -316,7 +316,7 @@ label chapter3:
     hide 928 right
     play sound1 "sfx/punch1.mp3"
     a "The tracker box on 928's back cracks hard against the floor. "
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     show gray overlay darker zorder(9)
     extend "For a moment, she blinks out of consciousness. "
     extend "Audio processors ringing, she regains her sight."
@@ -429,7 +429,7 @@ label chapter3:
     She pulls it up, and gives it a light tug to get it back into place."""
 
     ninevoicea "\"AUGH!\""
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     a """928's addled neural system screams danger.{w}
     She thrashes her limbs.{w}
     637 takes her free hand and pins 928 by the shoulder."""
@@ -466,7 +466,7 @@ label chapter3:
     a """The deafening hiss of the spray breaks 928's train of thought. Her chest is ice-cold."""
     
     a "In seconds, it heats up. {w}Hotter. And hotter. {w}It burns. "
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     extend "Then it's an inferno."
 
     a "928 opens her mouth without making a sound.{w} She sees white. Her thoughts are cut."

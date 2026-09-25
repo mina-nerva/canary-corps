@@ -552,7 +552,7 @@ label chapter5:
     show 637 smile
 
     "928 slots the exposed copper into the back of 637's neck and presses the panel down to hold it in."
-    play sound1 "sfx/wireconnect.mp3"
+    play sound1 "sfx/wireconnect.mp3" volume 0.5
     show 928 process
     show 637 process
     "There's a shock."
@@ -583,7 +583,7 @@ label chapter5:
     n "lohzxcuoi1asdrfi9asdrf8asdrf8idasrfpiodfsaujdskjrfkuikjp;kdjwrplk;we;lksdf;kjlsdflkjdfsjklsjkdlfjkldrkjlsdfjlksdfljkrfjkslapjklp;rfljkp;kljp;fwskjlrwejmnhurewjmhnugrfjmhnurdwe"
     hide 928 right
     a "928 doesn't understand her own voice. {w}Did she even make a sound?"
-    play sound1 "sfx/glitchout.mp3"
+    play sound1 "sfx/glitchout.mp3" volume 0.5
     a "She falls and falls. Something must be wrong. {w}She can't place what it is. {w}Maybe, if she just closes her eyes..."
     hide graynvl
     scene white with dissolve

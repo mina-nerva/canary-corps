@@ -274,7 +274,7 @@ label chapter2:
 
     a "928 and 637 plunge to the ground beneath."
     nvl clear
-    play sound1 "sfx/falldownfactory.mp3"
+    play sound1 "sfx/falldownfactory.mp3" volume 0.5
     "{i}CRASH!{/i}"
 
     s "AUGH!"
@@ -457,7 +457,7 @@ label chapter2:
     "928's hand slips, and throws the breaker."
     scene bg breaker on
     stop music
-    play sound1 "sfx/factorystartup.mp3"
+    play sound1 "sfx/factorystartup.mp3" volume 0.5
 
     show 928 right alert
     show 637 left surprise

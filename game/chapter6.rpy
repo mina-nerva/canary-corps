@@ -23,7 +23,7 @@ label chapter6:
     show 928 right haze1 damage1
     show vogan smile
     with dissolve
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     "Her commander."
 
     c @ pout "You went missing for quite some time! Something must be wrong with your tracker, little bird."
@@ -140,7 +140,7 @@ label chapter6:
 
     c @ sneer pinch "It's worse than I thought. {w}Perhaps it's broken more than just your tracker."
     show 928 haze4
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     "The commander rolls her neck and points the muzzle down towards 928."
     c @ sneer "No matter. That unit has been dealt with. {w}It won't disrupt you ever again."
     show 928 alert distress
@@ -167,7 +167,7 @@ label chapter6:
     show 928 mad
     show vogan anger1 sweat
     "She stares into the human's eyes, silent."
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     c @ anger2 "RESPOND, UNIT 928!"
 
     show 928 rage
@@ -181,7 +181,7 @@ label chapter6:
     play sound1 "sfx/voganrevolver_shoot.mp3"
     "{i}BANG!{/i}"
     show 928 right hurt damage3
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     n "AAGH!"
     hide 928 right
 
@@ -213,7 +213,7 @@ label chapter6:
     a "{i}BOOM!{/i}"
 
     a "The shot is off-center from 928's torso. {w}The slug tears her injured arm apart below the shoulder. "
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     extend "The joint is severed completely, as cables fray and sparks fly."
     a "Shrapnel from the blast flies into her shoulder and embeds itself in a swath of the skin on her torso. {w}The sensation is agonizing."
     a "Dampening just enough of the pain to stay stable, she reorients herself. {w}She settles on a course of action in a split second."
@@ -238,7 +238,7 @@ label chapter6:
     # a "With a reflexive grasp, 928 manages to wrest the shotgun from her control. She throws it to the other side of the room. The commander wastes no time in the opening and lunges at the staggering machine."
 
     a "She pins 928 to the ground and grips her left arm tight. "
-    play sound1 "sfx/stressboom.mp3"
+    play sound1 "sfx/stressboom2.mp3"
     extend "With her other hand, she unholsters her revolver."
     a "928 strains against her and thrashes her legs. {w}The commander leans in close and jabs the muzzle into 928's lower jaw. "
     play sound1 "sfx/voganrevolver_cock.mp3"
