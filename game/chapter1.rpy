@@ -9,7 +9,7 @@ define slowdissolve = Dissolve(1.0)
 
 label chapter1:
     # "Chapter 1"
-    "ETHERIDGE ASSET EXPORT - CYCLE 408 - 00:47"
+    "ETHERIDGE ASSET EXPORT - 5 HOURS BEFORE DEPLOYMENT"
     play music "minesong1stretchedA.mp3"
 
     scene bg transport with slowdissolve

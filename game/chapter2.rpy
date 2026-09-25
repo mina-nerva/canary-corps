@@ -1,7 +1,7 @@
 label chapter2:
     
 
-    "HELKA-112 SURFACE - CYCLE 408 - 05:15"
+    "HELKA-112 SURFACE - 10 MINUTES BEFORE DEPLOYMENT"
 
     scene bg surface with slowfade
 

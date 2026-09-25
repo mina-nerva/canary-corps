@@ -17,7 +17,7 @@ label chapter3:
     show black with dissolve
     play music "<from 697>minesong1stretchedA.mp3" fadein 30.0
     
-    "MANUFACTURING - CYCLE 408 - 13:09"
+    "MANUFACTURING - 8 HOURS AFTER DEPLOYMENT"
     scene bg elevator on with fade
     nvl clear
     window show

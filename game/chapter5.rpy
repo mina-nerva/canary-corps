@@ -1,6 +1,6 @@
 label chapter5:
     "Chapter 5"
-    "TIMESTAMP"
+    "MINES - 130 HOURS AFTER DEPLOYMENT"
     scene bg tunnels1 with fade
     nvl clear
     window show

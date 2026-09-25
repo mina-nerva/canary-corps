@@ -2,7 +2,7 @@
 
 label chapter6:
     # "Chapter 6"
-    "TIMESTAMP - ????? - SAFEHOUSE"
+    "LOCATION UNKNOWN - ??? HOURS AFTER DEPLOYMENT"
 
     scene bg fight
     play music "minesong2.mp3"

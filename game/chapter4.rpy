@@ -1,5 +1,5 @@
 label chapter4:
-    "TIMESTAMP" # TODO
+    "PROCESSING - 93 HOURS AFTER DEPLOYMENT"
 
     # larger textbox
     scene bg processing with slowfade
