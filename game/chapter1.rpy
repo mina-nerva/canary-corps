@@ -21,7 +21,7 @@ label chapter1:
     "It gazes at a supply crate strapped to the floor."
     n "..."
     "Human voices chatter through the radio."
-    play sound1 "sfx/radiofuzz.mp3"
+    play sound1 "sfx/radiofuzz.mp3" volume 0.5
     Voice "Yep. Yeah. It's on board already."
     Voice "The other one's giving us trouble, but we'll have it ready shortly. You know how these things can be."
     Other "Fuckin' Canaries, man."
