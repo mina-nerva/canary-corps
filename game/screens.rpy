@@ -363,6 +363,7 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
+    on 'show' action Stop('sound')
 
     vbox:
         style_prefix "navigation"
