@@ -23,13 +23,24 @@ define gui.show_name = False
 
 ## The version of the game
 
-define config.version = "beta"
+define config.version = "Almost Done!"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+Story & Script - Rattlegeist & Mina Nerva
+
+Assistant Editing - Alyssa Staats & Lex
+
+Art - Sprites & CGs by Rattlegeist, Additional CGs by 77jemini
+
+Programming & Compiling - Mina Nerva
+
+Music - Smalrainbow
+
+All sound effects are licensed under Creative Commons 0.
 """)
 
 
