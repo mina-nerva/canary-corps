@@ -30,6 +30,7 @@ layeredimage 928 right:
         attribute d default
         attribute damage1
         attribute damage2
+        attribute damage3
         attribute combat
 
     group head:
