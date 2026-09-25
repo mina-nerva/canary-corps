@@ -180,7 +180,7 @@ label chapter6:
     hide vogan
     play sound1 "sfx/voganrevolver_shoot.mp3"
     "{i}BANG!{/i}"
-    show 928 right hurt damage2 #TODO sprite change
+    show 928 right hurt damage3
     play sound1 "sfx/stressboom.mp3"
     n "AAGH!"
     hide 928 right
