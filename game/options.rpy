@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game
 
-define config.version = "Almost Done!"
+define config.version = "1.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -48,7 +48,7 @@ All sound effects are licensed under Creative Commons 0.
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "CanaryCorpsBUILDBEFORETHEBUILD"
+define build.name = "CanaryCorpsAlmostLastBuild"
 
 
 ## Sounds and music ############################################################

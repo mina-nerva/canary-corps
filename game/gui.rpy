@@ -74,16 +74,32 @@ define gui.text_size = 33
 define gui.name_text_size = 55
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 30
+define gui.interface_text_xpos = 0
+define gui.interface_text_ypos = 0
+
+define gui.about_label_text_size = 40
+define gui.about_label_text_xpos = 50
+define gui.about_label_text_ypos = 30
+
+define gui.about_text_size = 30
+define gui.about_text_xpos = 50
+define gui.about_text_ypos = 30
 
 ## The size of labels in the game's user interface.
+define gui.menupage_label_text_size = 36
+define gui.menupage_label_text_xpos = 0
+define gui.menupage_label_text_font = "Inconsolata-Bold.ttf"
+
 define gui.label_text_size = 36
+define gui.label_text_xpos = 0
+define gui.label_text_font = "Inconsolata-Bold.ttf"
 
 ## The size of text on the notify screen.
 define gui.notify_text_size = 24
 
 ## The size of the game's title.
-define gui.title_text_size = 75
+define gui.title_text_size = 125
 
 
 ## Main and Game Menus #########################################################
@@ -277,7 +293,7 @@ define gui.notify_ypos = 68
 define gui.choice_spacing = 33
 
 ## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 47
+define gui.navigation_spacing = 43
 
 ## Controls the amount of spacing between preferences.
 define gui.pref_spacing = 15

@@ -387,7 +387,7 @@ screen navigation():
 
         textbutton _("{i}Prefs{/i}") action ShowMenu("preferences")
 
-        if _in_replay:
+        if False:
 
             textbutton _("{i}End Replay{/i}") action EndReplay(confirm=True)
 
@@ -397,10 +397,10 @@ screen navigation():
 
         textbutton _("{i}About{/i}") action ShowMenu("about")
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        # if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-            ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("{i}Help{/i}") action ShowMenu("help")
+        #     ## Help isn't necessary or relevant to mobile devices.
+        #     textbutton _("{i}Help{/i}") action ShowMenu("help")
 
         if renpy.variant("pc"):
 
@@ -503,8 +503,8 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     style_prefix "game_menu"
 
-    if main_menu:
-        add gui.main_menu_background
+    if not preferences.video_image_fallback:
+        add Movie(play="images/menu/output.ogv")
     else:
         add gui.game_menu_background
 
@@ -587,7 +587,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    #background "gui/overlay/game_menu.png"
+    background "gui/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
     xsize 420
@@ -608,18 +608,18 @@ style game_menu_side:
     spacing 15
 
 style game_menu_label:
-    xpos 75
-    ysize 180
+    xpos 275
+    ysize 170
 
 style game_menu_label_text:
-    size 75
+    size 110
     color gui.accent_color
     yalign 0.5
 
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -45
+    yoffset -130
 
 
 ## About screen ################################################################
@@ -628,6 +628,9 @@ style return_button:
 ##
 ## There's nothing special about this screen, and hence it also serves as an
 ## example of how to make a custom screen.
+style about_vbox is vbox
+style about_vbox:
+    xsize 1200
 
 screen about():
 
@@ -636,11 +639,12 @@ screen about():
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
-    use game_menu(_("About"), scroll="viewport"):
+    use game_menu(_("ABOUT"), scroll="viewport"):
 
         style_prefix "about"
 
         vbox:
+            style "about_vbox"
 
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
@@ -657,8 +661,14 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size
+    size gui.about_label_text_size
+    xpos gui.about_label_text_xpos
+    ypos gui.about_label_text_ypos
 
+style about_text:
+    size gui.about_text_size
+    xpos gui.about_text_xpos
+    ypos gui.about_text_ypos
 
 ## Load and Save screens #######################################################
 ##
@@ -673,14 +683,14 @@ screen save():
 
     tag menu
 
-    use file_slots(_("Save"))
+    use file_slots(_("SAVE"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("LOAD"))
 
 
 screen file_slots(title):
@@ -763,7 +773,7 @@ screen file_slots(title):
                     textbutton _(">") action FilePageNext()
                     key "save_page_next" action FilePageNext()
 
-                if config.has_sync:
+                if False:
                     if CurrentScreenName() == "save":
                         textbutton _("Upload Sync"):
                             action UploadSync()
@@ -818,7 +828,7 @@ screen preferences():
 
     tag menu
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+    use game_menu(_("PREFERENCES"), scroll="viewport"):
 
         vbox:
 
@@ -981,7 +991,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
+    use game_menu(_("HISTORY"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
 
         style_prefix "history"
 
@@ -1068,7 +1078,7 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Help"), scroll="viewport"):
+    use game_menu(_("HELP"), scroll="viewport"):
 
         style_prefix "help"
 
