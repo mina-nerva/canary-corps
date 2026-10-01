@@ -30,26 +30,26 @@ define config.all_character_callbacks = [type_sound]
 define gui.accent_color = '#FFCA2C'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#bbbbbb'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
 define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#e0e066'
+define gui.hover_color = '#fdd868'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
 define gui.selected_color = '#ffffff'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#d3d3d37f'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#515100'
-define gui.hover_muted_color = '#7a7a00'
+define gui.muted_color = '#cfa526'
+define gui.hover_muted_color = '#af8b20'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#ffffff'
@@ -79,12 +79,12 @@ define gui.interface_text_xpos = 0
 define gui.interface_text_ypos = 0
 
 define gui.about_label_text_size = 40
-define gui.about_label_text_xpos = 50
-define gui.about_label_text_ypos = 30
+define gui.about_label_text_xpos = 60
+define gui.about_label_text_ypos = 40
 
 define gui.about_text_size = 30
-define gui.about_text_xpos = 50
-define gui.about_text_ypos = 30
+define gui.about_text_xpos = 60
+define gui.about_text_ypos = 50
 
 ## The size of labels in the game's user interface.
 define gui.menupage_label_text_size = 36
@@ -196,7 +196,7 @@ define gui.button_text_idle_color = gui.idle_color
 define gui.navigation_button_text_idle_color = "#000000"
 define gui.button_text_hover_color = gui.hover_color
 define gui.navigation_button_text_hover_color = "#000000"
-define gui.button_text_selected_color = "#000000"
+define gui.button_text_selected_color = "#FFCA2C"
 define gui.button_text_insensitive_color = gui.insensitive_color
 
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
@@ -293,10 +293,13 @@ define gui.notify_ypos = 68
 define gui.choice_spacing = 33
 
 ## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 43
+define gui.navigation_spacing = 28
 
 ## Controls the amount of spacing between preferences.
 define gui.pref_spacing = 15
+
+define gui.pref_xpos = 100
+define gui.pref_ypos = 50
 
 ## Controls the amount of spacing between preference buttons.
 define gui.pref_button_spacing = 0

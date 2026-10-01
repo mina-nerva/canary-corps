@@ -831,7 +831,6 @@ screen preferences():
     use game_menu(_("PREFERENCES"), scroll="viewport"):
 
         vbox:
-
             hbox:
                 box_wrap True
 
@@ -938,11 +937,16 @@ style pref_label:
 style pref_label_text:
     yalign 1.0
 
+
 style pref_vbox:
     xsize 338
+    xpos gui.pref_xpos
+    ypos gui.pref_ypos
 
 style radio_vbox:
     spacing gui.pref_button_spacing
+    xpos gui.pref_xpos
+    ypos gui.pref_ypos
 
 style radio_button:
     properties gui.button_properties("radio_button")
@@ -971,9 +975,13 @@ style slider_button:
 
 style slider_button_text:
     properties gui.text_properties("slider_button")
+    xpos gui.pref_xpos
+    ypos gui.pref_ypos
 
 style slider_vbox:
     xsize 675
+    xpos gui.pref_xpos
+    ypos gui.pref_ypos
 
 
 ## History screen ##############################################################
