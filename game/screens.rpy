@@ -750,7 +750,7 @@ screen file_slots(title):
                 style_prefix "page"
 
                 xalign 0.5
-                yalign 1.0
+                yalign 0.95
 
                 hbox:
                     xalign 0.5
@@ -796,7 +796,7 @@ style slot_name_text is slot_button_text
 
 style page_label:
     xpadding 75
-    ypadding 5
+    ypadding 30
     xalign 0.5
 
 style page_label_text:
@@ -1047,6 +1047,7 @@ style history_label_text is gui_label_text
 style history_window:
     xfill True
     ysize gui.history_height
+    ypos 40
 
 style history_name:
     xpos gui.history_name_xpos
@@ -1072,6 +1073,7 @@ style history_label:
 
 style history_label_text:
     xalign 0.5
+    ypadding 20
 
 
 ## Help screen #################################################################
