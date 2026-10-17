@@ -188,7 +188,7 @@ label chapter6:
     a "The round pierces the joint attaching 928's forearm. {w}Her bladed limb lashes back, dislocated and suddenly numb. {w}She reels and clutches her elbow. {w}The bullet inside her still spins, molten hot."
     a "Her mind floods with visceral, static noise."
 
-    a "You worthless {i}machine{/i}."
+    cvoicea "\"You worthless {i}machine{/i}.\""
     a "928 starts to move her legs in a desperate bid to get away, barely registering the shape closing in on her face. "
     play sound1 "sfx/punch1.mp3"
     extend "The butt of the revolver smashes straight into her forehead, snapping her head backwards."

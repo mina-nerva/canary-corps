@@ -48,7 +48,7 @@ All sound effects are licensed under Creative Commons 0.
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "CanaryCorpsAlmostLastBuild"
+define build.name = "CanaryCorps"
 
 
 ## Sounds and music ############################################################
