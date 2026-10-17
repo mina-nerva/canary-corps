@@ -282,11 +282,11 @@ label chapter3:
     show dog with dissolve
     a "Another drone lunges from the shadows, this time towards 928."
     show 637 hgrit
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     a "637 fires and hits it mid-air."
     hide dog with dissolve
     a "The mechanical beast careens off-course, colliding with the wall and painting it with an inky fluid.{w}"
-    play sound1 "sfx/canarygunecho3.mp3"
+    play sound1 "sfx/canarygunecho3.mp3" volume 1.25
     extend " Three more shots and it stops moving."
     hide graynvl
 
@@ -303,7 +303,7 @@ label chapter3:
     a "The onslaught continues. 928 moves with inhuman speed. "
     play sound1 "sfx/cutmetal.mp3" volume 0.5
     extend "She swings at one drone jumping at her, slicing it through the torso."
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     a "637 shoots one in the head and follows it up, impaling it through the back with her blade."
     hide 637 left with dissolve
 
@@ -329,9 +329,9 @@ label chapter3:
 
     hide dog
     stop music fadeout 5.0
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     a "A bang.{w} The drone goes flying, and collapses in a pile on the other side of the room.{w}"
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     extend " Another shot neutralizes it."
     show 637 left hgrit combat at moreright
     a "928 sees 637 standing above her, gun still aimed at the attacker.{w} They both heave, staring at each other."

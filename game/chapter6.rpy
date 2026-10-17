@@ -135,7 +135,7 @@ label chapter6:
     show vogan frown
     show 928 fluster -distress
     "Commander Vogan examines 928 as she eyes the door and stirs with intent. Pathfinding. {w}The humor drains from the Commander's expression. "
-    play sound1 "sfx/voganrevolver_cock.mp3"
+    play sound1 "sfx/voganrevolver_cock.mp3" volume 1.25
     extend "928 pauses at the distinct click of a revolver's hammer pulling back." 
 
     c @ sneer pinch "It's worse than I thought. {w}Perhaps it's broken more than just your tracker."
@@ -203,7 +203,7 @@ label chapter6:
     a "928 raises her left arm. {w}The panels slide open and back, readying her gun."
 
     a "The commander spots the motion and darts for cover. {w}She aims back at 928 with the shotgun as she moves."
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     a "928 fires first."
 
     cvoicea "\"FUCK!\""
@@ -255,7 +255,7 @@ label chapter6:
     extend "Pain surges through her as she jabs the mess of live-wiring and metal into the wound on the human's lower side."
     a "The commander screams and seizes up, losing her stability to the shock."
 
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     a "928 rolls over beneath her opponent, and releases the charged shot into the commander's torso."
     hide cg fight
     show white

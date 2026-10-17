@@ -205,7 +205,7 @@ label chapter4:
     show 637 smile
     show 928 hshut
     "She readies her weapon arm, and the gun folds out and into position. {w}Her eyes narrow, tracking the drone's linear path."
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     extend " She fires."
     "The body of the drone sparks, and crumples. {w}It drops into the glowing oblivion, propellers still whirring."
     show 928 smile
@@ -233,7 +233,7 @@ label chapter4:
 
     show 928 shut
     show 637 
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     "A bang interrupts her, and the machine she was eyeing bursts open and scatters. {w}637 looks at 928, who lowers her arm, billowing smoke. {w}928 is turned away from her."
 
     n @ mad "8-4. {w}Let's get going."
@@ -246,7 +246,7 @@ label chapter4:
     "637 bites her lip, then starts to catch up."
     
     scene bg processing with fade
-    play sound1 "sfx/canarygunecho.mp3"
+    play sound1 "sfx/canarygunecho.mp3" volume 1.25
     "{i}Bang.{/i}"
     show 928 right damage1
     n @ open "That's 12-8, my lead."
